@@ -150,10 +150,6 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Ei2HwOHbEea9E-2iFoWl3Q" name="expiryDate" visibility="private" type="_JiJTUOHbEea9E-2iFoWl3Q" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWD8OHbEea9E-2iFoWl3Q" name="securityCode" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_WQM6UOHbEea9E-2iFoWl3Q" name="issuingBank" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_STpc0OHpEea9E-2iFoWl3Q" name="getCardType">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jmPmAOHpEea9E-2iFoWl3Q" name="cardType" type="_AuKKoOHaEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_lcXaIOHpEea9E-2iFoWl3Q" name="setCardType"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_AuKKoOHaEea9E-2iFoWl3Q" name="CreditCardType">
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_JPw_UOHaEea9E-2iFoWl3Q" name="Visa"/>

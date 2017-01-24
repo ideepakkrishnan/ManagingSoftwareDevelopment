@@ -131,18 +131,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_XsjQoOHoEea9E-2iFoWl3Q" name="setCountryCode">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_dhJsgOHoEea9E-2iFoWl3Q" name="countryCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="read"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_hsYW0OHoEea9E-2iFoWl3Q" name="getAreaCode">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xSOqUOHoEea9E-2iFoWl3Q" name="areaCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_sDNnwOHoEea9E-2iFoWl3Q" name="setAreaCode">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7q010OHoEea9E-2iFoWl3Q" name="areaCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_-R9QIOHoEea9E-2iFoWl3Q" name="getSubscriberNumber">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_D7z0kOHpEea9E-2iFoWl3Q" name="subscriberNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_E1vtQOHpEea9E-2iFoWl3Q" name="setSubscriberNumber">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KLZjUOHpEea9E-2iFoWl3Q" name="subscriberNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
-    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hsYW0OHoEea9E-2iFoWl3Q" name="Operation1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_5J5H8OHZEea9E-2iFoWl3Q" name="CreditCard">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_4keRQOHaEea9E-2iFoWl3Q" name="cardType" visibility="private" type="_AuKKoOHaEea9E-2iFoWl3Q" isUnique="false"/>
@@ -150,10 +139,6 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Ei2HwOHbEea9E-2iFoWl3Q" name="expiryDate" visibility="private" type="_JiJTUOHbEea9E-2iFoWl3Q" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWD8OHbEea9E-2iFoWl3Q" name="securityCode" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_WQM6UOHbEea9E-2iFoWl3Q" name="issuingBank" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_STpc0OHpEea9E-2iFoWl3Q" name="getCardType">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jmPmAOHpEea9E-2iFoWl3Q" name="cardType" type="_AuKKoOHaEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_lcXaIOHpEea9E-2iFoWl3Q" name="setCardType"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_AuKKoOHaEea9E-2iFoWl3Q" name="CreditCardType">
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_JPw_UOHaEea9E-2iFoWl3Q" name="Visa"/>

@@ -231,14 +231,6 @@
         <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_XFyBAOHnEea9E-2iFoWl3Q"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_fYF1ceHnEea9E-2iFoWl3Q"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_0MresOHnEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_g2kloOHnEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_0MreseHnEea9E-2iFoWl3Q"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_0mOAEOHnEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_ngya4OHnEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_0mOAEeHnEea9E-2iFoWl3Q"/>
-      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_f9lF-eHYEea9E-2iFoWl3Q"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_f9lF-uHYEea9E-2iFoWl3Q"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_f9lF--HYEea9E-2iFoWl3Q"/>
@@ -277,30 +269,6 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oaOsteHZEea9E-2iFoWl3Q"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_oaOstuHZEea9E-2iFoWl3Q" type="Class_OperationCompartment">
-      <children xmi:type="notation:Shape" xmi:id="_fFMSIOHoEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_6gtokOHnEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_fFMSIeHoEea9E-2iFoWl3Q"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_feVx8OHoEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_XsjQoOHoEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_feVx8eHoEea9E-2iFoWl3Q"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_8SHfUOHoEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_hsYW0OHoEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8SHfUeHoEea9E-2iFoWl3Q"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_8nWIcOHoEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_sDNnwOHoEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8nWIceHoEea9E-2iFoWl3Q"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_Lnft4OHpEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_-R9QIOHoEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Lnft4eHpEea9E-2iFoWl3Q"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_MAn_kOHpEea9E-2iFoWl3Q" type="Operation_ClassOperationLabel">
-        <element xmi:type="uml:Operation" href="BusinessCustomerModel.uml#_E1vtQOHpEea9E-2iFoWl3Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_MAn_keHpEea9E-2iFoWl3Q"/>
-      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_oaOst-HZEea9E-2iFoWl3Q"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_oaOsuOHZEea9E-2iFoWl3Q"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_oaOsueHZEea9E-2iFoWl3Q"/>
@@ -313,7 +281,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oaOsv-HZEea9E-2iFoWl3Q"/>
     </children>
     <element xmi:type="uml:Class" href="BusinessCustomerModel.uml#_NodTUOHZEea9E-2iFoWl3Q"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oaJ0MeHZEea9E-2iFoWl3Q" x="413" y="475" width="321" height="205"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oaJ0MeHZEea9E-2iFoWl3Q" x="413" y="475" width="190" height="111"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_uO8n4OHaEea9E-2iFoWl3Q" type="Enumeration_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_uO8n4uHaEea9E-2iFoWl3Q" type="Enumeration_NameLabel"/>
@@ -419,7 +387,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ookjY-HcEea9E-2iFoWl3Q"/>
     </children>
     <element xmi:type="uml:Class" href="BusinessCustomerModel.uml#_vq2IsOHbEea9E-2iFoWl3Q"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ookjUeHcEea9E-2iFoWl3Q" x="758" y="472" width="189" height="111"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ookjUeHcEea9E-2iFoWl3Q" x="648" y="472" width="189" height="111"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Tv0rcOHfEea9E-2iFoWl3Q" type="Constraint_PackagedElementShape">
     <children xmi:type="notation:DecorationNode" xmi:id="_Tv3uwOHfEea9E-2iFoWl3Q" type="Constraint_NameLabel"/>
