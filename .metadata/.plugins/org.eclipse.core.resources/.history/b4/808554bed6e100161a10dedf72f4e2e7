@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_K7YKYOHLEea9E-2iFoWl3Q" name="Business">
+  <packagedElement xmi:type="uml:Class" xmi:id="_FbhaAOHMEea9E-2iFoWl3Q" name="Customer" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C6iOgOHNEea9E-2iFoWl3Q" name="name" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oRbMcOHNEea9E-2iFoWl3Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oRk9cOHNEea9E-2iFoWl3Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FtNVAOHOEea9E-2iFoWl3Q" name="address" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_kMFHsOHNEea9E-2iFoWl3Q" name="Text"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVmEoOHWEea9E-2iFoWl3Q" name="Address">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R6yykOHWEea9E-2iFoWl3Q" name="streetName" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bt_K8OHWEea9E-2iFoWl3Q" name="unitIdentifier" visibility="private" isUnique="false"/>
+  </packagedElement>
+</uml:Model>
