@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_K7YKYOHLEea9E-2iFoWl3Q" name="Business">
+  <packagedElement xmi:type="uml:Class" xmi:id="_FbhaAOHMEea9E-2iFoWl3Q" name="Customer" visibility="public">
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_iH7rYOHdEea9E-2iFoWl3Q" name="passwordConstraint" constrainedElement="_Qn-boOHdEea9E-2iFoWl3Q">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_itLtgOHdEea9E-2iFoWl3Q" name="minimumLengthValidation">
+        <language>OCL</language>
+        <body>self.password.toString().size() >= 8</body>
+      </specification>
+    </ownedRule>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_l0LpguJzEeaioaQWY9uEVQ" name="passwordConstraint">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_l0Lpg-JzEeaioaQWY9uEVQ" name="minimumLengthValidation">
+        <language>OCL</language>
+        <body>self.password.toString().size() >= 8</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C6iOgOHNEea9E-2iFoWl3Q" name="name" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oRbMcOHNEea9E-2iFoWl3Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oRk9cOHNEea9E-2iFoWl3Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FtNVAOHOEea9E-2iFoWl3Q" name="address" visibility="private" type="_MVmEoOHWEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xrwbEOHcEea9E-2iFoWl3Q" name="phoneNumber" visibility="private" type="_NodTUOHZEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4fn7kOHcEea9E-2iFoWl3Q" name="wallet" visibility="private" type="_vq2IsOHbEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_97j_0OHcEea9E-2iFoWl3Q" name="bankAccount" visibility="private" type="_PgclIOHYEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HSSeoOHdEea9E-2iFoWl3Q" name="userName" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Qn-boOHdEea9E-2iFoWl3Q" name="password" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_caqSoOH1Eea9E-2iFoWl3Q" name="address" visibility="private" type="_MVmEoOHWEea9E-2iFoWl3Q" association="_cakzEOH1Eea9E-2iFoWl3Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oiqmQuH1Eea9E-2iFoWl3Q" name="phonenumber" type="_NodTUOHZEea9E-2iFoWl3Q" association="_oioxEOH1Eea9E-2iFoWl3Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wH7HcOH1Eea9E-2iFoWl3Q" name="wallet" type="_vq2IsOHbEea9E-2iFoWl3Q" association="_wH55UOH1Eea9E-2iFoWl3Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jIwTkOH7Eea_CsXze3-R9Q" name="bankaccount" type="_PgclIOHYEea9E-2iFoWl3Q" association="_jIsCIOH7Eea_CsXze3-R9Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lU4M4OH7Eea_CsXze3-R9Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lU-6kOH7Eea_CsXze3-R9Q" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DFn40OH8Eea_CsXze3-R9Q" name="&lt;&lt;key>> userId" visibility="private" type="_OGDgYOH8Eea_CsXze3-R9Q"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2H_OcOHfEea9E-2iFoWl3Q" name="getName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RTJiwOHhEea9E-2iFoWl3Q" name="name" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ajV7wOHhEea9E-2iFoWl3Q" name="setName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qVzH4OHhEea9E-2iFoWl3Q" name="name" type="_kMFHsOHNEea9E-2iFoWl3Q" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_w6WaAOHhEea9E-2iFoWl3Q" name="getAddress">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3ILOMOHhEea9E-2iFoWl3Q" name="address" type="_MVmEoOHWEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5MDKcOHhEea9E-2iFoWl3Q" name="setAddress">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ALfBwOHiEea9E-2iFoWl3Q" name="address" type="_MVmEoOHWEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HWblgOHiEea9E-2iFoWl3Q" name="getPhoneNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_R3iMwOHiEea9E-2iFoWl3Q" name="phoneNumber" type="_NodTUOHZEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Tl3W0OHiEea9E-2iFoWl3Q" name="setPhoneNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y92vMOHiEea9E-2iFoWl3Q" name="phoneNumber" type="_NodTUOHZEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_igrwUOHiEea9E-2iFoWl3Q" name="getWallet">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xafdMOHiEea9E-2iFoWl3Q" name="wallet" type="_vq2IsOHbEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zRbwsOHiEea9E-2iFoWl3Q" name="setWallet">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_37OmUOHiEea9E-2iFoWl3Q" name="wallet" type="_vq2IsOHbEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_H7gWkOHkEea9E-2iFoWl3Q" name="getBankAccount" concurrency="concurrent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Oq_GUOHkEea9E-2iFoWl3Q" name="bankAccount" type="_PgclIOHYEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RetyMOHkEea9E-2iFoWl3Q" name="setBankAccount">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bmU7YOHkEea9E-2iFoWl3Q" name="bankAccount" type="_PgclIOHYEea9E-2iFoWl3Q" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hODY4OHkEea9E-2iFoWl3Q" name="getUserName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_m-JvQOHkEea9E-2iFoWl3Q" name="userName" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oeEC0OHkEea9E-2iFoWl3Q" name="setUserName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tEPjwOHkEea9E-2iFoWl3Q" name="userName" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vZKzwOHkEea9E-2iFoWl3Q" name="getPassword" concurrency="guarded">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2HQcYOHkEea9E-2iFoWl3Q" name="password" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4WnP4OHkEea9E-2iFoWl3Q" name="setPassword">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CINs0OHlEea9E-2iFoWl3Q" name="password" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tbNlYOH8Eea_CsXze3-R9Q" name="getUserId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0ZdJ4OH8Eea_CsXze3-R9Q" name="userId" type="_OGDgYOH8Eea_CsXze3-R9Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_OGDgYOH8Eea_CsXze3-R9Q" name="Number"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_kMFHsOHNEea9E-2iFoWl3Q" name="Text"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVmEoOHWEea9E-2iFoWl3Q" name="Address">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R6yykOHWEea9E-2iFoWl3Q" name="streetName" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bt_K8OHWEea9E-2iFoWl3Q" name="unitIdentifier" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hCr-wOHWEea9E-2iFoWl3Q" name="city" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mdPi8OHWEea9E-2iFoWl3Q" name="state" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q3pRsOHWEea9E-2iFoWl3Q" name="zipCode" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r-2-IOHmEea9E-2iFoWl3Q" name="country" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dmPIMOHlEea9E-2iFoWl3Q" name="getStreetName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_j6dfUOHlEea9E-2iFoWl3Q" name="streetName" type="_kMFHsOHNEea9E-2iFoWl3Q" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lciWEOHlEea9E-2iFoWl3Q" name="setStreetName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rwlHAOHlEea9E-2iFoWl3Q" name="streetName" type="_kMFHsOHNEea9E-2iFoWl3Q" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xqs8EOHlEea9E-2iFoWl3Q" name="getUnitIdentifier">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2zv5gOHlEea9E-2iFoWl3Q" name="unitIdentifier" type="_kMFHsOHNEea9E-2iFoWl3Q" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4BsTUOHlEea9E-2iFoWl3Q" name="setUnitIdentifier">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-T8UgOHlEea9E-2iFoWl3Q" name="unitIdentifier" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BUG54OHmEea9E-2iFoWl3Q" name="getCity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FjE0sOHmEea9E-2iFoWl3Q" name="city" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HFfCoOHmEea9E-2iFoWl3Q" name="setCity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LGc9sOHmEea9E-2iFoWl3Q" name="city" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NBrUQOHmEea9E-2iFoWl3Q" name="getState">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_SwxlEOHmEea9E-2iFoWl3Q" name="state" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TtqEEOHmEea9E-2iFoWl3Q" name="setState">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XuA7IOHmEea9E-2iFoWl3Q" name="state" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Z0UgUOHmEea9E-2iFoWl3Q" name="getZipCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_gsMXEOHmEea9E-2iFoWl3Q" name="zipCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hujzAOHmEea9E-2iFoWl3Q" name="setZipCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_oD0E4OHmEea9E-2iFoWl3Q" name="zipCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xjHQ4OHmEea9E-2iFoWl3Q" name="getCountry">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_11wx0OHmEea9E-2iFoWl3Q" name="country" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5vKsUOHmEea9E-2iFoWl3Q" name="setCountry">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_91WekOHmEea9E-2iFoWl3Q" name="country" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PgclIOHYEea9E-2iFoWl3Q" name="BankAccount">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R91NkOHYEea9E-2iFoWl3Q" name="routingNumber" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_at-NgOHYEea9E-2iFoWl3Q" name="accountNumber" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_POLyoOHnEea9E-2iFoWl3Q" name="getRoutingNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vzw_gOHnEea9E-2iFoWl3Q" name="routingNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XFyBAOHnEea9E-2iFoWl3Q" name="setRoutingNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_d8pyMOHnEea9E-2iFoWl3Q" name="routingNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_g2kloOHnEea9E-2iFoWl3Q" name="getAccountNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mUwsoOHnEea9E-2iFoWl3Q" name="accountNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ngya4OHnEea9E-2iFoWl3Q" name="setAccountNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_zaJOgOHnEea9E-2iFoWl3Q" name="accountNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NodTUOHZEea9E-2iFoWl3Q" name="PhoneNumber">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YfIh8OHZEea9E-2iFoWl3Q" name="countryCode" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fTGJEOHZEea9E-2iFoWl3Q" name="areaCode" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jp3VAOHZEea9E-2iFoWl3Q" name="subscriberNumber" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6gtokOHnEea9E-2iFoWl3Q" name="getCountryCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WWmKUOHoEea9E-2iFoWl3Q" name="countryCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XsjQoOHoEea9E-2iFoWl3Q" name="setCountryCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_dhJsgOHoEea9E-2iFoWl3Q" name="countryCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hsYW0OHoEea9E-2iFoWl3Q" name="getAreaCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xSOqUOHoEea9E-2iFoWl3Q" name="areaCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sDNnwOHoEea9E-2iFoWl3Q" name="setAreaCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7q010OHoEea9E-2iFoWl3Q" name="areaCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-R9QIOHoEea9E-2iFoWl3Q" name="getSubscriberNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_D7z0kOHpEea9E-2iFoWl3Q" name="subscriberNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_E1vtQOHpEea9E-2iFoWl3Q" name="setSubscriberNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KLZjUOHpEea9E-2iFoWl3Q" name="subscriberNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5J5H8OHZEea9E-2iFoWl3Q" name="CreditCard">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4keRQOHaEea9E-2iFoWl3Q" name="cardType" visibility="private" type="_AuKKoOHaEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__3SXkOHaEea9E-2iFoWl3Q" name="cardNumber" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ei2HwOHbEea9E-2iFoWl3Q" name="expiryDate" visibility="private" type="_JiJTUOHbEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWD8OHbEea9E-2iFoWl3Q" name="securityCode" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WQM6UOHbEea9E-2iFoWl3Q" name="issuingBank" visibility="private" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_STpc0OHpEea9E-2iFoWl3Q" name="getCardType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jmPmAOHpEea9E-2iFoWl3Q" name="cardType" type="_AuKKoOHaEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lcXaIOHpEea9E-2iFoWl3Q" name="setCardType" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rPkYwOHyEea9E-2iFoWl3Q" name="cardType" type="_AuKKoOHaEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4wrNUOHyEea9E-2iFoWl3Q" name="getCardNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-EVfUOHyEea9E-2iFoWl3Q" name="cardNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__BcAwOHyEea9E-2iFoWl3Q" name="setCardNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ECm0kOHzEea9E-2iFoWl3Q" name="cardNumber" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XlGj0OHzEea9E-2iFoWl3Q" name="getExpiryDate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cYG_0OHzEea9E-2iFoWl3Q" name="expiryDate" type="_JiJTUOHbEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dF7IEOHzEea9E-2iFoWl3Q" name="setExpiryDate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_h_rsUOHzEea9E-2iFoWl3Q" name="expiryDate" type="_JiJTUOHbEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ivZ5EOHzEea9E-2iFoWl3Q" name="getSecurityCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_oMudYOHzEea9E-2iFoWl3Q" name="securityCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pGmEoOHzEea9E-2iFoWl3Q" name="setSecurityCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sn4aEOHzEea9E-2iFoWl3Q" name="securityCode" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yeg2QOHzEea9E-2iFoWl3Q" name="getIssuingBank">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2t618OHzEea9E-2iFoWl3Q" name="issuingBank" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3mxwkOHzEea9E-2iFoWl3Q" name="setIssuingBank">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8BwuIOHzEea9E-2iFoWl3Q" name="issuingBank" type="_kMFHsOHNEea9E-2iFoWl3Q" isUnique="false" effect="update"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_AuKKoOHaEea9E-2iFoWl3Q" name="CreditCardType">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_JPw_UOHaEea9E-2iFoWl3Q" name="Visa"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_f1gdIOHaEea9E-2iFoWl3Q" name="AMEX"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_oD7QEOHaEea9E-2iFoWl3Q" name="MC"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_qadCkOHaEea9E-2iFoWl3Q" name="Discover"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_JiJTUOHbEea9E-2iFoWl3Q" name="Date"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vq2IsOHbEea9E-2iFoWl3Q" name="Wallet">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_x96-kOHbEea9E-2iFoWl3Q" name="creditCards" visibility="private" type="_5J5H8OHZEea9E-2iFoWl3Q" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GnK6gOHcEea9E-2iFoWl3Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GnayIOHcEea9E-2iFoWl3Q" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r6XscOH2Eea3erLZzMQe_g" name="creditcard" type="_5J5H8OHZEea9E-2iFoWl3Q" association="_r6N7cOH2Eea3erLZzMQe_g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9GIN0OH2Eea3erLZzMQe_g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9GjroOH2Eea3erLZzMQe_g" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GwQRIOH0Eea9E-2iFoWl3Q" name="getCreditCards">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ODRy0OH0Eea9E-2iFoWl3Q" name="creditCards" type="_5J5H8OHZEea9E-2iFoWl3Q" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CI-HgOH1Eea9E-2iFoWl3Q"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CJDnEOH1Eea9E-2iFoWl3Q" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zmbEEOH0Eea9E-2iFoWl3Q" name="setCreditCards">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6CUwgOH0Eea9E-2iFoWl3Q" name="creditCards" type="_5J5H8OHZEea9E-2iFoWl3Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-43BoOH0Eea9E-2iFoWl3Q"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-49vUOH0Eea9E-2iFoWl3Q" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cakzEOH1Eea9E-2iFoWl3Q" name="has a" memberEnd="_caqSoOH1Eea9E-2iFoWl3Q _caq5sOH1Eea9E-2iFoWl3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_capEgOH1Eea9E-2iFoWl3Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_caprkOH1Eea9E-2iFoWl3Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_caq5sOH1Eea9E-2iFoWl3Q" name="customer" type="_FbhaAOHMEea9E-2iFoWl3Q" association="_cakzEOH1Eea9E-2iFoWl3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oioxEOH1Eea9E-2iFoWl3Q" name="has a" memberEnd="_oiqmQuH1Eea9E-2iFoWl3Q _oir0YOH1Eea9E-2iFoWl3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oiqmQOH1Eea9E-2iFoWl3Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oiqmQeH1Eea9E-2iFoWl3Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oir0YOH1Eea9E-2iFoWl3Q" name="customer" type="_FbhaAOHMEea9E-2iFoWl3Q" association="_oioxEOH1Eea9E-2iFoWl3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wH55UOH1Eea9E-2iFoWl3Q" name="has a" memberEnd="_wH7HcOH1Eea9E-2iFoWl3Q _wH7ugOH1Eea9E-2iFoWl3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wH6gYOH1Eea9E-2iFoWl3Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wH6gYeH1Eea9E-2iFoWl3Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wH7ugOH1Eea9E-2iFoWl3Q" name="customer" type="_FbhaAOHMEea9E-2iFoWl3Q" association="_wH55UOH1Eea9E-2iFoWl3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r6N7cOH2Eea3erLZzMQe_g" name="contains" memberEnd="_r6XscOH2Eea3erLZzMQe_g _r6aIsOH2Eea3erLZzMQe_g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r6UpIOH2Eea3erLZzMQe_g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r6V3QOH2Eea3erLZzMQe_g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r6aIsOH2Eea3erLZzMQe_g" name="wallet" type="_vq2IsOHbEea9E-2iFoWl3Q" association="_r6N7cOH2Eea3erLZzMQe_g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jIsCIOH7Eea_CsXze3-R9Q" name="has a" memberEnd="_jIwTkOH7Eea_CsXze3-R9Q _jIw6oOH7Eea_CsXze3-R9Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jIueYOH7Eea_CsXze3-R9Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jIueYeH7Eea_CsXze3-R9Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jIw6oOH7Eea_CsXze3-R9Q" name="customer" type="_FbhaAOHMEea9E-2iFoWl3Q" association="_jIsCIOH7Eea_CsXze3-R9Q"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_L7I9AOJ1EeaioaQWY9uEVQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_n6m4kOJ1EeaioaQWY9uEVQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n6sYIOJ1EeaioaQWY9uEVQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n6s_MOJ1EeaioaQWY9uEVQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n6s_MeJ1EeaioaQWY9uEVQ" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_n6u0YOJ1EeaioaQWY9uEVQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_qXg_4OJ1EeaioaQWY9uEVQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="NetflixCustomer.uml#_m3DJ1eJ1EeaioaQWY9uEVQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qXg_4eJ1EeaioaQWY9uEVQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qzZqoOJ1EeaioaQWY9uEVQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="NetflixCustomer.uml#_m3DJ2OJ1EeaioaQWY9uEVQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qzZqoeJ1EeaioaQWY9uEVQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_raKvsOJ1EeaioaQWY9uEVQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="NetflixCustomer.uml#_m3DJ2eJ1EeaioaQWY9uEVQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_raKvseJ1EeaioaQWY9uEVQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_r0R40OJ1EeaioaQWY9uEVQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="NetflixCustomer.uml#_m3DJ2uJ1EeaioaQWY9uEVQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r0R40eJ1EeaioaQWY9uEVQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sEFPYOJ1EeaioaQWY9uEVQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="NetflixCustomer.uml#_m3DJ2-J1EeaioaQWY9uEVQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sEFPYeJ1EeaioaQWY9uEVQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sXLxkOJ1EeaioaQWY9uEVQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="NetflixCustomer.uml#_m3DJ3OJ1EeaioaQWY9uEVQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sXLxkeJ1EeaioaQWY9uEVQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_smy64OJ1EeaioaQWY9uEVQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="NetflixCustomer.uml#_m3DJ3eJ1EeaioaQWY9uEVQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_smy64eJ1EeaioaQWY9uEVQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_n6u0YeJ1EeaioaQWY9uEVQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_n6u0YuJ1EeaioaQWY9uEVQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_n6u0Y-J1EeaioaQWY9uEVQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6u0ZOJ1EeaioaQWY9uEVQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_n6u0ZeJ1EeaioaQWY9uEVQ" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_n6u0ZuJ1EeaioaQWY9uEVQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_n6u0Z-J1EeaioaQWY9uEVQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_n6u0aOJ1EeaioaQWY9uEVQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6u0aeJ1EeaioaQWY9uEVQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_n6vbcOJ1EeaioaQWY9uEVQ" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_n6vbceJ1EeaioaQWY9uEVQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_n6vbcuJ1EeaioaQWY9uEVQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_n6vbc-J1EeaioaQWY9uEVQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6vbdOJ1EeaioaQWY9uEVQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="NetflixCustomer.uml#_m3DJ0OJ1EeaioaQWY9uEVQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n6m4keJ1EeaioaQWY9uEVQ" x="136" y="66"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_L7I9AeJ1EeaioaQWY9uEVQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_L7I9AuJ1EeaioaQWY9uEVQ"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_L7I9A-J1EeaioaQWY9uEVQ">
+    <owner xmi:type="uml:Model" href="NetflixCustomer.uml#_L6hR8OJ1EeaioaQWY9uEVQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="NetflixCustomer.uml#_L6hR8OJ1EeaioaQWY9uEVQ"/>
+</notation:Diagram>
