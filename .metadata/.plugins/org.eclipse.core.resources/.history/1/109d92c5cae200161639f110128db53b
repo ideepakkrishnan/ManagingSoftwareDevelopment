@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Zd06wOLJEeaI-9pTzyl9Xw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lk72gOLJEeaI-9pTzyl9Xw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nZiAoOLJEeaI-9pTzyl9Xw" name="Barista"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_CFr6MOLKEeaI-9pTzyl9Xw" name="Food Handler"/>
+</uml:Model>

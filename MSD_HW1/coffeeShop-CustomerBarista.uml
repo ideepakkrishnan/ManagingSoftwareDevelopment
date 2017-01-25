@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Zd06wOLJEeaI-9pTzyl9Xw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lk72gOLJEeaI-9pTzyl9Xw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nZiAoOLJEeaI-9pTzyl9Xw" name="Barista"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_CFr6MOLKEeaI-9pTzyl9Xw" name="Food Handler"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HBXxEOLKEeaI-9pTzyl9Xw" name="Receive Order Details"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_K3XLMOLKEeaI-9pTzyl9Xw" name="Prepare Order"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NAVC0OLKEeaI-9pTzyl9Xw" name="Place Item on Counter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PuggUOLKEeaI-9pTzyl9Xw" name="Call-out Customer Name"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VXvZsOLKEeaI-9pTzyl9Xw" name="Call-out food item"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fhfQ4OLKEeaI-9pTzyl9Xw" name="Collect Order"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k4gY4OLKEeaI-9pTzyl9Xw" memberEnd="_k4g_8uLKEeaI-9pTzyl9Xw _k4g_8-LKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k4g_8OLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k4g_8eLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k4g_8uLKEeaI-9pTzyl9Xw" name="barista" type="_nZiAoOLJEeaI-9pTzyl9Xw" association="_k4gY4OLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k4g_8-LKEeaI-9pTzyl9Xw" name="receive order details" type="_HBXxEOLKEeaI-9pTzyl9Xw" association="_k4gY4OLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mFLAUOLKEeaI-9pTzyl9Xw" memberEnd="_mFLAU-LKEeaI-9pTzyl9Xw _mFLAVOLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFLAUeLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mFLAUuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mFLAU-LKEeaI-9pTzyl9Xw" name="food handler" type="_CFr6MOLKEeaI-9pTzyl9Xw" association="_mFLAUOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mFLAVOLKEeaI-9pTzyl9Xw" name="receive order details" type="_HBXxEOLKEeaI-9pTzyl9Xw" association="_mFLAUOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_m4eskOLKEeaI-9pTzyl9Xw" memberEnd="_m4esk-LKEeaI-9pTzyl9Xw _m4eslOLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m4eskeLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m4eskuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m4esk-LKEeaI-9pTzyl9Xw" name="barista" type="_nZiAoOLJEeaI-9pTzyl9Xw" association="_m4eskOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m4eslOLKEeaI-9pTzyl9Xw" name="prepare order" type="_K3XLMOLKEeaI-9pTzyl9Xw" association="_m4eskOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n_6OsOLKEeaI-9pTzyl9Xw" memberEnd="_n_6Os-LKEeaI-9pTzyl9Xw _n_6OtOLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n_6OseLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_6OsuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n_6Os-LKEeaI-9pTzyl9Xw" name="food handler" type="_CFr6MOLKEeaI-9pTzyl9Xw" association="_n_6OsOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n_6OtOLKEeaI-9pTzyl9Xw" name="prepare order" type="_K3XLMOLKEeaI-9pTzyl9Xw" association="_n_6OsOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o1X3EOLKEeaI-9pTzyl9Xw" memberEnd="_o1X3E-LKEeaI-9pTzyl9Xw _o1X3FOLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o1X3EeLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o1X3EuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o1X3E-LKEeaI-9pTzyl9Xw" name="barista" type="_nZiAoOLJEeaI-9pTzyl9Xw" association="_o1X3EOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o1X3FOLKEeaI-9pTzyl9Xw" name="place item on counter" type="_NAVC0OLKEeaI-9pTzyl9Xw" association="_o1X3EOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p4NNEOLKEeaI-9pTzyl9Xw" memberEnd="_p4NNE-LKEeaI-9pTzyl9Xw _p4NNFOLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p4NNEeLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p4NNEuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p4NNE-LKEeaI-9pTzyl9Xw" name="food handler" type="_CFr6MOLKEeaI-9pTzyl9Xw" association="_p4NNEOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p4NNFOLKEeaI-9pTzyl9Xw" name="place item on counter" type="_NAVC0OLKEeaI-9pTzyl9Xw" association="_p4NNEOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_q5kjcOLKEeaI-9pTzyl9Xw" memberEnd="_q5kjc-LKEeaI-9pTzyl9Xw _q5kjdOLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q5kjceLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q5kjcuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q5kjc-LKEeaI-9pTzyl9Xw" name="barista" type="_nZiAoOLJEeaI-9pTzyl9Xw" association="_q5kjcOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q5kjdOLKEeaI-9pTzyl9Xw" name="call-out customer name" type="_PuggUOLKEeaI-9pTzyl9Xw" association="_q5kjcOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tXNqkOLKEeaI-9pTzyl9Xw" memberEnd="_tXNqk-LKEeaI-9pTzyl9Xw _tXNqlOLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tXNqkeLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tXNqkuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tXNqk-LKEeaI-9pTzyl9Xw" name="food handler" type="_CFr6MOLKEeaI-9pTzyl9Xw" association="_tXNqkOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tXNqlOLKEeaI-9pTzyl9Xw" name="call-out food item" type="_VXvZsOLKEeaI-9pTzyl9Xw" association="_tXNqkOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xB7BwOLKEeaI-9pTzyl9Xw" memberEnd="_xCEywOLKEeaI-9pTzyl9Xw _xCEyweLKEeaI-9pTzyl9Xw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xB7BweLKEeaI-9pTzyl9Xw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xB7BwuLKEeaI-9pTzyl9Xw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xCEywOLKEeaI-9pTzyl9Xw" name="collect order" type="_fhfQ4OLKEeaI-9pTzyl9Xw" association="_xB7BwOLKEeaI-9pTzyl9Xw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xCEyweLKEeaI-9pTzyl9Xw" name="customer" type="_lk72gOLJEeaI-9pTzyl9Xw" association="_xB7BwOLKEeaI-9pTzyl9Xw"/>
+  </packagedElement>
+</uml:Model>

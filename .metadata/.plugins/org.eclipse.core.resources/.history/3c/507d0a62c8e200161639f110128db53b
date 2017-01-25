@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DLek8OLHEeaI-9pTzyl9Xw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EGYG8OLHEeaI-9pTzyl9Xw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HaXAMOLHEeaI-9pTzyl9Xw" name="Cashier"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Lq8roOLHEeaI-9pTzyl9Xw" name="Request Order"/>
+</uml:Model>

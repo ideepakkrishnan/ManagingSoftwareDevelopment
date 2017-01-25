@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MSD_HW1/coffeeShop.di&apos; to &apos;coffeeShop-CustomerCashier.di&apos;" description="Rename resource &apos;coffeeShop.di&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="coffeeShop.di" name="coffeeShop-CustomerCashier.di" stamp="1485326486576" updateReferences="true"/>
+</session>

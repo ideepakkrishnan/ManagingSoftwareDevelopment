@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Zd-rwOLJEeaI-9pTzyl9Xw" type="UseCase" name="UseCase Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_lk72geLJEeaI-9pTzyl9Xw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lk72g-LJEeaI-9pTzyl9Xw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lk72hOLJEeaI-9pTzyl9Xw" x="-10" y="72"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lk72heLJEeaI-9pTzyl9Xw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lk72huLJEeaI-9pTzyl9Xw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lk72h-LJEeaI-9pTzyl9Xw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lk72iOLJEeaI-9pTzyl9Xw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lk72ieLJEeaI-9pTzyl9Xw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lk72iuLJEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <element xmi:type="uml:Actor" href="coffeeShop-CustomerBarista.uml#_lk72gOLJEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lk72guLJEeaI-9pTzyl9Xw" x="155" y="375"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nZiAoeLJEeaI-9pTzyl9Xw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nZiAo-LJEeaI-9pTzyl9Xw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nZiApOLJEeaI-9pTzyl9Xw" x="-2" y="66"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nZiApeLJEeaI-9pTzyl9Xw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nZiApuLJEeaI-9pTzyl9Xw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nZiAp-LJEeaI-9pTzyl9Xw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nZiAqOLJEeaI-9pTzyl9Xw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nZiAqeLJEeaI-9pTzyl9Xw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nZiAquLJEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <element xmi:type="uml:Actor" href="coffeeShop-CustomerBarista.uml#_nZiAoOLJEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nZiAouLJEeaI-9pTzyl9Xw" x="739" y="286"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CFr6MeLKEeaI-9pTzyl9Xw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CFr6MuLKEeaI-9pTzyl9Xw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CFr6M-LKEeaI-9pTzyl9Xw" x="-21" y="66"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CFr6NOLKEeaI-9pTzyl9Xw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CFr6NeLKEeaI-9pTzyl9Xw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CFr6NuLKEeaI-9pTzyl9Xw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CFr6N-LKEeaI-9pTzyl9Xw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CFr6OOLKEeaI-9pTzyl9Xw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CFr6OeLKEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <element xmi:type="uml:Actor" href="coffeeShop-CustomerBarista.uml#_CFr6MOLKEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFr6PeLKEeaI-9pTzyl9Xw" x="748" y="465"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HBXxEeLKEeaI-9pTzyl9Xw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HBg7AOLKEeaI-9pTzyl9Xw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HBg7AeLKEeaI-9pTzyl9Xw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HBg7AuLKEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HBg7A-LKEeaI-9pTzyl9Xw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HBg7BOLKEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HBg7BeLKEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HBg7BuLKEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="coffeeShop-CustomerBarista.uml#_HBXxEOLKEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HBXxEuLKEeaI-9pTzyl9Xw" x="362" y="156" width="158"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_K3XLMeLKEeaI-9pTzyl9Xw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_K3XLMuLKEeaI-9pTzyl9Xw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_K3XLM-LKEeaI-9pTzyl9Xw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_K3XLNOLKEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_K3XLNeLKEeaI-9pTzyl9Xw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_K3XLNuLKEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_K3XLN-LKEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K3XLOOLKEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="coffeeShop-CustomerBarista.uml#_K3XLMOLKEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K3XLPOLKEeaI-9pTzyl9Xw" x="361" y="247" width="158"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_NAVC0eLKEeaI-9pTzyl9Xw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NAVC0uLKEeaI-9pTzyl9Xw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NAVC0-LKEeaI-9pTzyl9Xw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NAVC1OLKEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_NAVC1eLKEeaI-9pTzyl9Xw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_NAVC1uLKEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_NAVC1-LKEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NAVC2OLKEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="coffeeShop-CustomerBarista.uml#_NAVC0OLKEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NAVC3OLKEeaI-9pTzyl9Xw" x="360" y="345" width="158"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PuggUeLKEeaI-9pTzyl9Xw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PuggUuLKEeaI-9pTzyl9Xw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PuggU-LKEeaI-9pTzyl9Xw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PuggVOLKEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PuggVeLKEeaI-9pTzyl9Xw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PuggVuLKEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PuggV-LKEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PuggWOLKEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="coffeeShop-CustomerBarista.uml#_PuggUOLKEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PuggXOLKEeaI-9pTzyl9Xw" x="354" y="461" width="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_VXvZseLKEeaI-9pTzyl9Xw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VXvZsuLKEeaI-9pTzyl9Xw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VXvZs-LKEeaI-9pTzyl9Xw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VXvZtOLKEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_VXvZteLKEeaI-9pTzyl9Xw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VXvZtuLKEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VXvZt-LKEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXvZuOLKEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="coffeeShop-CustomerBarista.uml#_VXvZsOLKEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXvZvOLKEeaI-9pTzyl9Xw" x="355" y="561" width="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fhf38OLKEeaI-9pTzyl9Xw" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fhf38eLKEeaI-9pTzyl9Xw" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fhf38uLKEeaI-9pTzyl9Xw" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fhf38-LKEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fhf39OLKEeaI-9pTzyl9Xw" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fhf39eLKEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fhf39uLKEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhf39-LKEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="coffeeShop-CustomerBarista.uml#_fhfQ4OLKEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhf3--LKEeaI-9pTzyl9Xw" x="354" y="654" width="181"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_Zd-rweLJEeaI-9pTzyl9Xw" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Zd-rwuLJEeaI-9pTzyl9Xw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_Zd-rw-LJEeaI-9pTzyl9Xw">
+    <owner xmi:type="uml:Model" href="coffeeShop-CustomerBarista.uml#_Zd06wOLJEeaI-9pTzyl9Xw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="coffeeShop-CustomerBarista.uml#_Zd06wOLJEeaI-9pTzyl9Xw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_k4hnAOLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_HBXxEeLKEeaI-9pTzyl9Xw" target="_nZiAoeLJEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_k4hnA-LKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k4hnBOLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k4hnBeLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k4hnBuLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k4hnB-LKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k4hnCOLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k4hnCeLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k4hnCuLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k4hnC-LKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k4hnDOLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_k4hnDeLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_k4hnDuLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_k4hnAeLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_k4gY4OLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k4hnAuLKEeaI-9pTzyl9Xw" points="[519, 190, -643984, -643984]$[739, 303, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k4-S8OLKEeaI-9pTzyl9Xw" id="(0.9936708860759493,0.5666666666666667)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k4-S8eLKEeaI-9pTzyl9Xw" id="(0.0,0.3571929824561414)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mFLAVeLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_HBXxEeLKEeaI-9pTzyl9Xw" target="_CFr6MeLKEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFLAWOLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mFLAWeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFLAWuLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mFLAW-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFLAXOLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mFLAXeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFLAXuLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mFLAX-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFLAYOLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mFLAYeLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mFLAYuLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mFLAY-LKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mFLAVuLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_mFLAUOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mFLAV-LKEeaI-9pTzyl9Xw" points="[518, 192, -643984, -643984]$[753, 465, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mFrWoOLKEeaI-9pTzyl9Xw" id="(0.9873417721518988,0.6)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mFrWoeLKEeaI-9pTzyl9Xw" id="(0.1836854460093908,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_m4esleLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_K3XLMeLKEeaI-9pTzyl9Xw" target="_nZiAoeLJEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_m4esmOLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_m4esmeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_m4esmuLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_m4esm-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_m4esnOLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_m4esneLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_m4esnuLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_m4esn-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_m4esoOLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_m4esoeLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_m4esouLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_m4eso-LKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_m4esluLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_m4eskOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m4esl-LKEeaI-9pTzyl9Xw" points="[518, 277, -643984, -643984]$[739, 309, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m5HlwOLKEeaI-9pTzyl9Xw" id="(0.9936708860759493,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m5HlweLKEeaI-9pTzyl9Xw" id="(0.0,0.46)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_n_6OteLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_K3XLMeLKEeaI-9pTzyl9Xw" target="_CFr6MeLKEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n_6OuOLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n_6OueLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n_6OuuLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n_6Ou-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oAD_sOLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oAD_seLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oAD_suLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oAD_s-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oAD_tOLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oAD_teLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oAD_tuLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oAD_t-LKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n_6OtuLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_n_6OsOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n_6Ot-LKEeaI-9pTzyl9Xw" points="[516, 285, -643984, -643984]$[748, 466, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAW6oOLKEeaI-9pTzyl9Xw" id="(0.9810126582278481,0.6333333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAW6oeLKEeaI-9pTzyl9Xw" id="(0.0,0.021463414634147283)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_o1X3FeLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_NAVC0eLKEeaI-9pTzyl9Xw" target="_nZiAoeLJEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_o1X3GOLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o1X3GeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o1X3GuLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o1X3G-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o1X3HOLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o1X3HeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o1X3HuLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o1X3H-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o1X3IOLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o1X3IeLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o1X3IuLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o1X3I-LKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_o1X3FuLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_o1X3EOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o1X3F-LKEeaI-9pTzyl9Xw" points="[517, 372, -643984, -643984]$[739, 317, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o10jAOLKEeaI-9pTzyl9Xw" id="(0.9936708860759493,0.45)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o10jAeLKEeaI-9pTzyl9Xw" id="(0.0,0.62)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p4NNFeLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_NAVC0eLKEeaI-9pTzyl9Xw" target="_CFr6MeLKEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_p4NNGOLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_p4NNGeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_p4NNGuLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_p4NNG-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_p4NNHOLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_p4NNHeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_p4NNHuLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_p4NNH-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_p4NNIOLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_p4NNIeLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_p4NNIuLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_p4NNI-LKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_p4NNFuLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_p4NNEOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p4NNF-LKEeaI-9pTzyl9Xw" points="[516, 381, -643984, -643984]$[748, 479, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p4zC8OLKEeaI-9pTzyl9Xw" id="(0.9873417721518988,0.6)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p4zC8eLKEeaI-9pTzyl9Xw" id="(0.0,0.2973839662447256)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_q5kjdeLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_PuggUeLKEeaI-9pTzyl9Xw" target="_nZiAoeLJEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5kjeOLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5kjeeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5kjeuLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5kje-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5kjfOLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5kjfeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5kjfuLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5kjf-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5kjgOLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5kjgeLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5kjguLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5kjg-LKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_q5kjduLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_q5kjcOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q5kjd-LKEeaI-9pTzyl9Xw" points="[534, 491, -643984, -643984]$[739, 327, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q6X0sOLKEeaI-9pTzyl9Xw" id="(0.994475138121547,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q6X0seLKEeaI-9pTzyl9Xw" id="(0.0,0.8313364055299552)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tXNqleLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_VXvZseLKEeaI-9pTzyl9Xw" target="_CFr6MeLKEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tXNqmOLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tXNqmeLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tXNqmuLKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tXNqm-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tXNqnOLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tXNqneLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tXNqnuLKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tXNqn-LKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tXNqoOLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tXNqoeLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tXNqouLKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tXNqo-LKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tXNqluLKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_tXNqkOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tXNql-LKEeaI-9pTzyl9Xw" points="[535, 590, -643984, -643984]$[748, 510, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tX3x4OLKEeaI-9pTzyl9Xw" id="(0.994475138121547,0.48333333333333334)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tX3x4eLKEeaI-9pTzyl9Xw" id="(0.0,0.9118421052631583)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xCEywuLKEeaI-9pTzyl9Xw" type="Association_Edge" source="_lk72geLJEeaI-9pTzyl9Xw" target="_fhf38OLKEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xCEyxeLKEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xCEyxuLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xCEyx-LKEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xCEyyOLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xCEyyeLKEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xCEyyuLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xCEyy-LKEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xCEyzOLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xCEyzeLKEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xCEyzuLKEeaI-9pTzyl9Xw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xCEyz-LKEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xCEy0OLKEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xCEyw-LKEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="coffeeShop-CustomerBarista.uml#_xB7BwOLKEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xCEyxOLKEeaI-9pTzyl9Xw" points="[181, 425, -643984, -643984]$[354, 680, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xClwIOLKEeaI-9pTzyl9Xw" id="(0.8925790754257898,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xClwIeLKEeaI-9pTzyl9Xw" id="(0.0,0.43333333333333335)"/>
+  </edges>
+</notation:Diagram>

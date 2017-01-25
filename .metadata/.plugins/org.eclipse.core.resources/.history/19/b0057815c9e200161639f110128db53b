@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DLek8OLHEeaI-9pTzyl9Xw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EGYG8OLHEeaI-9pTzyl9Xw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HaXAMOLHEeaI-9pTzyl9Xw" name="Cashier"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Lq8roOLHEeaI-9pTzyl9Xw" name="Request Order"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dovG4OLHEeaI-9pTzyl9Xw" name="Place Order"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gwY0UOLHEeaI-9pTzyl9Xw" name="Place order in POS"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_kUJ2AOLHEeaI-9pTzyl9Xw" name="Validate Order"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pNcgMOLHEeaI-9pTzyl9Xw" name="Confirm Order"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yN_6sOLHEeaI-9pTzyl9Xw" name="Retrieve cups"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1F5U4OLHEeaI-9pTzyl9Xw" name="Request Customer Name"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-pMQEOLHEeaI-9pTzyl9Xw" name="Provide Name"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_I5Z7oOLIEeaI-9pTzyl9Xw" name="Request payment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SBdFQOLIEeaI-9pTzyl9Xw" name="Place payment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VFwjwOLIEeaI-9pTzyl9Xw" name="Record payment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Z-OukOLIEeaI-9pTzyl9Xw" name="Forward order"/>
+</uml:Model>
