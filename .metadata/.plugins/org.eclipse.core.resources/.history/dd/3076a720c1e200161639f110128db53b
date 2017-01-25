@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DgCdgOK4EeaI-9pTzyl9Xw" name="StreamingVideo">
+  <packagedElement xmi:type="uml:Class" xmi:id="_E5CQwOK4EeaI-9pTzyl9Xw" name="Pixel">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RnaA0OK4EeaI-9pTzyl9Xw" name="red" visibility="private" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false">
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_YDsHwOK4EeaI-9pTzyl9Xw" name="defaultRed"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aWCk4OK4EeaI-9pTzyl9Xw" name="green" visibility="private" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false">
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_aWCk4eK4EeaI-9pTzyl9Xw" name="defaultGreen"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ahhcIOK4EeaI-9pTzyl9Xw" name="blue" visibility="private" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false">
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_ahhcIeK4EeaI-9pTzyl9Xw" name="defaultBlue"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aqJMoOK4EeaI-9pTzyl9Xw" name="intensity" visibility="private" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false">
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_aqJMoeK4EeaI-9pTzyl9Xw" name="defaultIntensity"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qdWmsOK4EeaI-9pTzyl9Xw" name="getRed">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vrh7wOK4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wzPKsOK4EeaI-9pTzyl9Xw" name="setRed">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1v8VQOK4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-oXHcOK4EeaI-9pTzyl9Xw" name="getGreen">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-oXHceK4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-ogRYOK4EeaI-9pTzyl9Xw" name="setGreen">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-ogRYeK4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-92PQOK4EeaI-9pTzyl9Xw" name="getBlue">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-92PQeK4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_--JKMOK4EeaI-9pTzyl9Xw" name="setBlue">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_--JKMeK4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__DlD0OK4EeaI-9pTzyl9Xw" name="getIntensity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__DlD0eK4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__DlD0uK4EeaI-9pTzyl9Xw" name="setIntensity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__DlD0-K4EeaI-9pTzyl9Xw" name="value" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SxbugOK5EeaI-9pTzyl9Xw" name="Pixel">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZWog4OK5EeaI-9pTzyl9Xw" name="red" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cD9CwOK5EeaI-9pTzyl9Xw" name="green" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fri0gOK5EeaI-9pTzyl9Xw" name="blue" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jU_ncOK5EeaI-9pTzyl9Xw" name="intensity" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qUHVsOK5EeaI-9pTzyl9Xw" name="Pixel"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ucPBoOK5EeaI-9pTzyl9Xw" name="Picture">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_x3qmsOK5EeaI-9pTzyl9Xw" name="pixelArray" visibility="private" type="__lS-4OK6EeaI-9pTzyl9Xw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8dgkAOK5EeaI-9pTzyl9Xw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8dmDkOK5EeaI-9pTzyl9Xw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JeWSMOK8EeaI-9pTzyl9Xw" name="getPixelArray">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PwlsUOK8EeaI-9pTzyl9Xw" name="pixelArray" type="__lS-4OK6EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_W2Kn4OK8EeaI-9pTzyl9Xw" name="setPixelArray">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cC2IIOK8EeaI-9pTzyl9Xw" name="pixelArray" type="__lS-4OK6EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_f5XGsOK8EeaI-9pTzyl9Xw" name="getPixel">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WGFZUOK9EeaI-9pTzyl9Xw" name="l" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="read"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YRBm4OK9EeaI-9pTzyl9Xw" name="w" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="read"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_f5XGseK8EeaI-9pTzyl9Xw" name="pixel" type="_E5CQwOK4EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_f5gQoOK8EeaI-9pTzyl9Xw" name="setPixel">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NkmgcOK9EeaI-9pTzyl9Xw" name="l" type="_OefIEOK4EeaI-9pTzyl9Xw" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QZPLQOK9EeaI-9pTzyl9Xw" name="w" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_f5gQoeK8EeaI-9pTzyl9Xw" name="pixel" type="_E5CQwOK4EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_spBQMOK8EeaI-9pTzyl9Xw" name="Picture">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_38beIOK8EeaI-9pTzyl9Xw" name="l" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="create"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7EtdsOK8EeaI-9pTzyl9Xw" name="w" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="create"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__a9sQOK8EeaI-9pTzyl9Xw" name="pixelArray" type="__lS-4OK6EeaI-9pTzyl9Xw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BXrQkOK9EeaI-9pTzyl9Xw" name="Picture">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BXrQkeK9EeaI-9pTzyl9Xw" name="l" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="create"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BXrQkuK9EeaI-9pTzyl9Xw" name="w" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false" effect="create"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="__lS-4OK6EeaI-9pTzyl9Xw" name="2DArray&lt;Pixel>">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SYxE8OK7EeaI-9pTzyl9Xw" name="length" visibility="private" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZqTY4OK7EeaI-9pTzyl9Xw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zqci0OK7EeaI-9pTzyl9Xw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Y-7goOK7EeaI-9pTzyl9Xw" name="width" visibility="private" type="_OefIEOK4EeaI-9pTzyl9Xw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a_JE4OK7EeaI-9pTzyl9Xw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a_Tc8OK7EeaI-9pTzyl9Xw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_j0cmwOK9EeaI-9pTzyl9Xw" name="AudioFrame"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tbQwAOK9EeaI-9pTzyl9Xw" name="MP3Frame">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8ylfUOK9EeaI-9pTzyl9Xw" name="header" visibility="private" type="_0Kwt4OK9EeaI-9pTzyl9Xw" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Mf0NMOK-EeaI-9pTzyl9Xw" name="data" visibility="private" type="_JWDm8OK-EeaI-9pTzyl9Xw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_abF1QOK-EeaI-9pTzyl9Xw" name="getHeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_abF1QeK-EeaI-9pTzyl9Xw" name="header" type="_0Kwt4OK9EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_abO_MOK-EeaI-9pTzyl9Xw" name="setHeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_abO_MeK-EeaI-9pTzyl9Xw" name="header" type="_0Kwt4OK9EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pWLUgOK-EeaI-9pTzyl9Xw" name="getHeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pWLUgeK-EeaI-9pTzyl9Xw" name="value" type="_JWDm8OK-EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0b8IAOK-EeaI-9pTzyl9Xw" name="key" type="_JWDm8OK-EeaI-9pTzyl9Xw" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pWYv4OK-EeaI-9pTzyl9Xw" name="setHeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pWYv4eK-EeaI-9pTzyl9Xw" name="key" type="_JWDm8OK-EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-Ba0gOK-EeaI-9pTzyl9Xw" name="value" type="_JWDm8OK-EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__V_awOK-EeaI-9pTzyl9Xw" name="addHeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__V_awuK-EeaI-9pTzyl9Xw" name="key" type="_JWDm8OK-EeaI-9pTzyl9Xw" effect="read"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__V_aweK-EeaI-9pTzyl9Xw" name="value" type="_JWDm8OK-EeaI-9pTzyl9Xw" isUnique="false" effect="read"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_0Kwt4OK9EeaI-9pTzyl9Xw" name="HashMap"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_JWDm8OK-EeaI-9pTzyl9Xw" name="Text"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_OefIEOK4EeaI-9pTzyl9Xw" name="Number"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YzBOwOK_EeaI-9pTzyl9Xw" name="VorbisFrame"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ep0DAOK_EeaI-9pTzyl9Xw" name="AACFrame"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fhcOkOK_EeaI-9pTzyl9Xw" name="OpusFrame"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_FzplQOLAEeaI-9pTzyl9Xw" client="_ep0DAOK_EeaI-9pTzyl9Xw" supplier="_j0cmwOK9EeaI-9pTzyl9Xw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_GciKMOLAEeaI-9pTzyl9Xw" client="_YzBOwOK_EeaI-9pTzyl9Xw" supplier="_j0cmwOK9EeaI-9pTzyl9Xw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_HAJNkOLAEeaI-9pTzyl9Xw" client="_fhcOkOK_EeaI-9pTzyl9Xw" supplier="_j0cmwOK9EeaI-9pTzyl9Xw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_H_0h4OLAEeaI-9pTzyl9Xw" client="_tbQwAOK9EeaI-9pTzyl9Xw" supplier="_j0cmwOK9EeaI-9pTzyl9Xw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oMTQcOLAEeaI-9pTzyl9Xw" name="AudioSample">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rpZpcOLAEeaI-9pTzyl9Xw" name="audioFrames" visibility="private" type="_j0cmwOK9EeaI-9pTzyl9Xw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vRPS0OLAEeaI-9pTzyl9Xw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vRS9MOLAEeaI-9pTzyl9Xw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2eCQsOLAEeaI-9pTzyl9Xw" name="getAudioFrames">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2eCQseLAEeaI-9pTzyl9Xw" name="audioFrames" type="_j0cmwOK9EeaI-9pTzyl9Xw" isUnique="false" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DTYygOLBEeaI-9pTzyl9Xw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DTijgOLBEeaI-9pTzyl9Xw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2eMBsOLAEeaI-9pTzyl9Xw" name="setHeader">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2eMBseLAEeaI-9pTzyl9Xw" name="header" type="_0Kwt4OK9EeaI-9pTzyl9Xw" isUnique="false" effect="update"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

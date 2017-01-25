@@ -3,15 +3,21 @@
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:Type:type">
 		<section name="History">
 			<list key="PreviousSelection">
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3DKA-J1EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3IpYOJ1EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_Vo4P0OKEEeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_kplacOJ6EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_F_egwOJ-EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_5FOQ0OJ9EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_hoVvoOJ9EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3FmEOJ1EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3LssOJ1EeaioaQWY9uEVQ"/>
 				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_OGDgYOH8Eea_CsXze3-R9Q"/>
 				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_5J5H8OHZEea9E-2iFoWl3Q"/>
 				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
 				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
 				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_AuKKoOHaEea9E-2iFoWl3Q"/>
 				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_PgclIOHYEea9E-2iFoWl3Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_vq2IsOHbEea9E-2iFoWl3Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_NodTUOHZEea9E-2iFoWl3Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_MVmEoOHWEea9E-2iFoWl3Q"/>
 			</list>
 		</section>
 	</section>
@@ -25,6 +31,17 @@
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/BusinessCustomerModel.uml:uml:Behavior:method">
 	</section>
 	<section name="org.eclipse.papyrus.infra.ui.emf.customizationManager">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/NetflixCustomer.uml:uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3DKA-J1EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_Vo4P0OKEEeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_kplacOJ6EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_F_egwOJ-EeaioaQWY9uEVQ"/>
+				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_5FOQ0OJ9EeaioaQWY9uEVQ"/>
+			</list>
+		</section>
 	</section>
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/BusinessCustomerModel.uml:uml:Behavior:behavior">
 	</section>

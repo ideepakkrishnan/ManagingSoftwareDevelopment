@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DhcLsOK4EeaI-9pTzyl9Xw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_E5MBwOK4EeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_E5VLsOK4EeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_E5VLseK4EeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E5VLsuK4EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E5VLs-K4EeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_YyE3wOK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_RnaA0OK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YyE3weK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ehOL4OK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_aWCk4OK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ehOL4eK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pnTIcOK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_ahhcIOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnTIceK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_p0_mMOK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_aqJMoOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p0_mMeK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_E5VLtOK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E5VLteK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E5VLtuK4EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5VLt-K4EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E5VLuOK4EeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_E5VLueK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E5VLuuK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E5VLu-K4EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5VLvOK4EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E5VLveK4EeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_E5VLvuK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E5VLv-K4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E5VLwOK4EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5VLweK4EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_E5CQwOK4EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5MBweK4EeaI-9pTzyl9Xw" x="140" y="90"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_DhcLseK4EeaI-9pTzyl9Xw" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_DhcLsuK4EeaI-9pTzyl9Xw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_DhcLs-K4EeaI-9pTzyl9Xw">
+    <owner xmi:type="uml:Model" href="StreamingVideo.uml#_DgCdgOK4EeaI-9pTzyl9Xw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="StreamingVideo.uml#_DgCdgOK4EeaI-9pTzyl9Xw"/>
+</notation:Diagram>

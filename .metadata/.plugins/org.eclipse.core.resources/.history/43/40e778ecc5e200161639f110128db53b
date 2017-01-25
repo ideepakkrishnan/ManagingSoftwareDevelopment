@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DhcLsOK4EeaI-9pTzyl9Xw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_E5MBwOK4EeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_E5VLsOK4EeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_E5VLseK4EeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E5VLsuK4EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E5VLs-K4EeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_YyE3wOK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_RnaA0OK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YyE3weK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ehOL4OK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_aWCk4OK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ehOL4eK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pnTIcOK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_ahhcIOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnTIceK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_p0_mMOK4EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_aqJMoOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p0_mMeK4EeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_E5VLtOK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E5VLteK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E5VLtuK4EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5VLt-K4EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E5VLuOK4EeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_MNOaoOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_qdWmsOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MNOaoeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MNVIUOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_wzPKsOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MNVIUeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MNVIUuK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_-oXHcOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MNVIU-K5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MNeSQOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_-ogRYOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MNeSQeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MNoDQOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_-92PQOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MNoDQeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MNx0QOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_--JKMOK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MNx0QeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MN6-MOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#__DlD0OK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MN6-MeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MOEvMOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#__DlD0uK4EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MOEvMeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_j-ScEOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_SxbugOK5EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j-ScEeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sNXWUOK5EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_qUHVsOK5EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sNXWUeK5EeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_E5VLueK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E5VLuuK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E5VLu-K4EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5VLvOK4EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E5VLveK4EeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_E5VLvuK4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E5VLv-K4EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E5VLwOK4EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5VLweK4EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_E5CQwOK4EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5MBweK4EeaI-9pTzyl9Xw" x="140" y="90"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_t6ulIOK7EeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_t6ulIuK7EeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_t6ulI-K7EeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_t6ulJOK7EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_t6ulJeK7EeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_u8hZUOK7EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_x3qmsOK5EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u8hZUeK7EeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_t6ulJuK7EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_t6ulJ-K7EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_t6ulKOK7EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t6ulKeK7EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_t6ulKuK7EeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_FCumAOK9EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_JeWSMOK8EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FCumAeK9EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FC7aUOK9EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_W2Kn4OK8EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FC7aUeK9EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FC7aUuK9EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_f5XGsOK8EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FC7aU-K9EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FDFLUOK9EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_f5gQoOK8EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FDFLUeK9EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FDO8UOK9EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_spBQMOK8EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FDO8UeK9EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FDYGQOK9EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_BXrQkOK9EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FDYGQeK9EeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_t6ulK-K7EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_t6ulLOK7EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_t6ulLeK7EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t6ulLuK7EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_t6ulL-K7EeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_t6ulMOK7EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_t6ulMeK7EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_t6ulMuK7EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t6ulM-K7EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_ucPBoOK5EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t6ulIeK7EeaI-9pTzyl9Xw" x="766" y="91" height="169"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_oEQPEOK9EeaI-9pTzyl9Xw" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oEQPEuK9EeaI-9pTzyl9Xw" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oEQPE-K9EeaI-9pTzyl9Xw" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oEQPFOK9EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_oEQPFeK9EeaI-9pTzyl9Xw" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oEQPFuK9EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oEQPF-K9EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oEQPGOK9EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oEQPGeK9EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_oEQPGuK9EeaI-9pTzyl9Xw" type="Interface_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oEQPG-K9EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oEQPHOK9EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oEQPHeK9EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oEQPHuK9EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_oEQPH-K9EeaI-9pTzyl9Xw" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oEQPIOK9EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oEQPIeK9EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oEQPIuK9EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oEQPI-K9EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Interface" href="StreamingVideo.uml#_j0cmwOK9EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oEQPEeK9EeaI-9pTzyl9Xw" x="564" y="509" width="186"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_I1eM8OK_EeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_I1eM8uK_EeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_I1eM8-K_EeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_I1eM9OK_EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_I1eM9eK_EeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_KH3B4OK_EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_8ylfUOK9EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KH3B4eK_EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KIAL0OK_EeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_Mf0NMOK-EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KIAL0eK_EeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_I1eM9uK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_I1eM9-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_I1eM-OK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I1eM-eK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_I1n98OK_EeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Ky7YIOK_EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_abF1QOK-EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ky7YIeK_EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KzO6IOK_EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_abO_MOK-EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KzO6IeK_EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KzZSMOK_EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_pWLUgOK-EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KzZSMeK_EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KzagUOK_EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_pWYv4OK-EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KzagUeK_EeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KzjqQOK_EeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#__V_awOK-EeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KzjqQeK_EeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_I1n98eK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_I1n98uK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_I1n98-K_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I1n99OK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_I1n99eK_EeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_I1n99uK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_I1n99-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_I1n9-OK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I1n9-eK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_tbQwAOK9EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I1eM8eK_EeaI-9pTzyl9Xw" x="145" y="508"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_aXn1EOK_EeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aXn1EuK_EeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aXn1E-K_EeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aXn1FOK_EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_aXn1FeK_EeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_aXn1FuK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aXn1F-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aXn1GOK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXn1GeK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_aXn1GuK_EeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_aXn1G-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aXn1HOK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aXn1HeK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXn1HuK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_aXn1H-K_EeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_aXn1IOK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aXn1IeK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aXn1IuK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXn1I-K_EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_YzBOwOK_EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXn1EeK_EeaI-9pTzyl9Xw" x="398" y="751" width="134"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ep0DAeK_EeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ep0DAuK_EeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ep0DA-K_EeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ep0DBOK_EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ep0DBeK_EeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ep0DBuK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ep0DB-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ep0DCOK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ep0DCeK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ep0DCuK_EeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ep0DC-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ep0DDOK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ep0DDeK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ep0DDuK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ep0DD-K_EeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ep0DEOK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ep0DEeK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ep0DEuK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ep0DE-K_EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_ep0DAOK_EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ep0DF-K_EeaI-9pTzyl9Xw" x="596" y="751" width="134"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fhc1oOK_EeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fhc1oeK_EeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fhc1ouK_EeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fhc1o-K_EeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fhc1pOK_EeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fhc1peK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fhc1puK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fhc1p-K_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhc1qOK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fhc1qeK_EeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fhc1quK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fhc1q-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fhc1rOK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhc1reK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fhc1ruK_EeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fhc1r-K_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fhc1sOK_EeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fhc1seK_EeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhc1suK_EeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_fhcOkOK_EeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhc1tuK_EeaI-9pTzyl9Xw" x="794" y="749" width="134"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PjBYIOLBEeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PjBYIuLBEeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PjBYI-LBEeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PjBYJOLBEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PjBYJeLBEeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_QButYOLBEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_rpZpcOLAEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QButYeLBEeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PjBYJuLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PjBYJ-LBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PjBYKOLBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PjBYKeLBEeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PjBYKuLBEeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_QkyXIOLBEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_2eCQsOLAEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QkyXIeLBEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_QlFSEOLBEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_2eMBsOLAEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QlFSEeLBEeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PjBYK-LBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PjBYLOLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PjBYLeLBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PjBYLuLBEeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PjBYL-LBEeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PjBYMOLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PjBYMeLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PjBYMuLBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PjBYM-LBEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_oMTQcOLAEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PjBYIeLBEeaI-9pTzyl9Xw" x="883" y="507"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_WLJivOLBEeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WLJiveLBEeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WLJivuLBEeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WLJiv-LBEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WLJiwOLBEeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_WLJiweLBEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_WLJiseLBEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WLJiwuLBEeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_WLJiw-LBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WLJixOLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WLJixeLBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLJixuLBEeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WLJix-LBEeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_WLJiyOLBEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_WLJitOLBEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WLJiyeLBEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WLJiyuLBEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_WLJiuOLBEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WLJiy-LBEeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_WLJizOLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WLJizeLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WLJizuLBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLJiz-LBEeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_WLJi0OLBEeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_WLJi0eLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_WLJi0uLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_WLJi0-LBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLJi1OLBEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_WLJisOLBEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLJi2OLBEeaI-9pTzyl9Xw" x="864" y="324"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_9VMgUOLBEeaI-9pTzyl9Xw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9VMgUeLBEeaI-9pTzyl9Xw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9VMgUuLBEeaI-9pTzyl9Xw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9VMgU-LBEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9VMgVOLBEeaI-9pTzyl9Xw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_9VMgVeLBEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_9VLSMeLBEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9VMgVuLBEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MqDKcOLCEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_Hxm00OLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MqDKceLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8MQs4OLCEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_PQC8UOLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8MQs4eLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8Mad4OLCEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_TsD0oOLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Mad4eLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8MtY0OLCEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_UObh4OLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8MtY0eLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8NCI8OLCEeaI-9pTzyl9Xw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StreamingVideo.uml#_27hzEOLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8NCI8eLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9VMgV-LBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9VMgWOLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9VMgWeLBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9VMgWuLBEeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9VMgW-LBEeaI-9pTzyl9Xw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_9VMgXOLBEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_9VLSNOLBEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9VMgXeLBEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9VMgXuLBEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_9VLSOOLBEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9VMgX-LBEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DuhH8OLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_TmCPsOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DuhH8eLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Du14EOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_TmLZoOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Du14EeLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DvJaEOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_TsW6IOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DvJaEeLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DvcVAOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_TskVgOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DvcVAeLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DvvP8OLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_oBWdUOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DvvP8eLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DwQNUOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_oBWdVOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DwQNUeLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Dws5QOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_oGCwEOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dws5QeLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DxEFoOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_oGCwFOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DxEFoeLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DxXAkOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_odaHMOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DxXAkeLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Dx2IwOLEEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_odj4MOLDEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Dx2IweLEEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FM-NgOLFEeaI-9pTzyl9Xw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="StreamingVideo.uml#_PhCTwOLEEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FM-NgeLFEeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9VMgYOLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9VMgYeLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9VMgYuLBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9VMgY-LBEeaI-9pTzyl9Xw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9VMgZOLBEeaI-9pTzyl9Xw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9VMgZeLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9VMgZuLBEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9VMgZ-LBEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9VMgaOLBEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Class" href="StreamingVideo.uml#_9VLSMOLBEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9VMgbOLBEeaI-9pTzyl9Xw" x="1370" y="257"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_eHQoMOLCEeaI-9pTzyl9Xw" type="Enumeration_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eHQoMeLCEeaI-9pTzyl9Xw" type="Enumeration_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eHQoMuLCEeaI-9pTzyl9Xw" type="Enumeration_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eHQoM-LCEeaI-9pTzyl9Xw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_eHQoNOLCEeaI-9pTzyl9Xw" type="Enumeration_LiteralCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_eHQoNeLCEeaI-9pTzyl9Xw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="StreamingVideo.uml#_eHHeQeLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eHQoNuLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eHQoN-LCEeaI-9pTzyl9Xw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="StreamingVideo.uml#_eHHeQuLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eHQoOOLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uuT6AOLCEeaI-9pTzyl9Xw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="StreamingVideo.uml#_pXEIgOLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uuT6AeLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uuoqIOLCEeaI-9pTzyl9Xw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="StreamingVideo.uml#_pZM2gOLCEeaI-9pTzyl9Xw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uuoqIeLCEeaI-9pTzyl9Xw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_eHQoOeLCEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eHQoOuLCEeaI-9pTzyl9Xw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eHQoO-LCEeaI-9pTzyl9Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eHQoPOLCEeaI-9pTzyl9Xw"/>
+    </children>
+    <element xmi:type="uml:Enumeration" href="StreamingVideo.uml#_eHHeQOLCEeaI-9pTzyl9Xw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eHQoQOLCEeaI-9pTzyl9Xw" x="1371" y="91" width="209" height="113"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_DhcLseK4EeaI-9pTzyl9Xw" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_DhcLsuK4EeaI-9pTzyl9Xw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_DhcLs-K4EeaI-9pTzyl9Xw">
+    <owner xmi:type="uml:Model" href="StreamingVideo.uml#_DgCdgOK4EeaI-9pTzyl9Xw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="StreamingVideo.uml#_DgCdgOK4EeaI-9pTzyl9Xw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_FzplQeLAEeaI-9pTzyl9Xw" type="Realization_Edge" source="_ep0DAeK_EeaI-9pTzyl9Xw" target="_oEQPEOK9EeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FzplROLAEeaI-9pTzyl9Xw" type="Realization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Vcjz0OLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FzplReLAEeaI-9pTzyl9Xw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FzplRuLAEeaI-9pTzyl9Xw" type="Realization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Vctk0OLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FzplR-LAEeaI-9pTzyl9Xw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FzplQuLAEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Realization" href="StreamingVideo.uml#_FzplQOLAEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FzplQ-LAEeaI-9pTzyl9Xw" points="[672, 751, -643984, -643984]$[672, 614, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F0ddkOLAEeaI-9pTzyl9Xw" id="(0.47761194029850745,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F0ddkeLAEeaI-9pTzyl9Xw" id="(0.510752688172043,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GciKMeLAEeaI-9pTzyl9Xw" type="Realization_Edge" source="_aXn1EOK_EeaI-9pTzyl9Xw" target="_oEQPEOK9EeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GciKNOLAEeaI-9pTzyl9Xw" type="Realization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Vc2uwOLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GciKNeLAEeaI-9pTzyl9Xw" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GciKNuLAEeaI-9pTzyl9Xw" type="Realization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VdEKIOLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GciKN-LAEeaI-9pTzyl9Xw" x="1" y="57"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GciKMuLAEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Realization" href="StreamingVideo.uml#_GciKMOLAEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GciKM-LAEeaI-9pTzyl9Xw" points="[502, 752, -643984, -643984]$[589, 614, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GdIAEOLAEeaI-9pTzyl9Xw" id="(0.6268656716417911,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GdIAEeLAEeaI-9pTzyl9Xw" id="(0.13440860215053763,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HAJNkeLAEeaI-9pTzyl9Xw" type="Realization_Edge" source="_fhc1oOK_EeaI-9pTzyl9Xw" target="_oEQPEOK9EeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HAJNlOLAEeaI-9pTzyl9Xw" type="Realization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VdXsIOLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HAJNleLAEeaI-9pTzyl9Xw" x="-1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HAJNluLAEeaI-9pTzyl9Xw" type="Realization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VdqnEOLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HAJNl-LAEeaI-9pTzyl9Xw" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HAJNkuLAEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Realization" href="StreamingVideo.uml#_HAJNkOLAEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HAJNk-LAEeaI-9pTzyl9Xw" points="[854, 749, -643984, -643984]$[735, 614, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HAzU4OLAEeaI-9pTzyl9Xw" id="(0.44776119402985076,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HAzU4eLAEeaI-9pTzyl9Xw" id="(0.9193548387096774,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_H_-S4OLAEeaI-9pTzyl9Xw" type="Realization_Edge" source="_I1eM8OK_EeaI-9pTzyl9Xw" target="_oEQPEOK9EeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H_-S4-LAEeaI-9pTzyl9Xw" type="Realization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VcHH4OLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H_-S5OLAEeaI-9pTzyl9Xw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H_-S5eLAEeaI-9pTzyl9Xw" type="Realization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VcaC0OLAEeaI-9pTzyl9Xw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H_-S5uLAEeaI-9pTzyl9Xw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_H_-S4eLAEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Realization" href="StreamingVideo.uml#_H_0h4OLAEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H_-S4uLAEeaI-9pTzyl9Xw" points="[404, 563, -643984, -643984]$[564, 563, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IApBQOLAEeaI-9pTzyl9Xw" id="(1.0,0.3005464480874317)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IApBQeLAEeaI-9pTzyl9Xw" id="(0.0,0.5142857142857142)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_OC8IoOLFEeaI-9pTzyl9Xw" type="Association_Edge" source="_oEQPEOK9EeaI-9pTzyl9Xw" target="_PjBYIOLBEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ODF5oOLFEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ODF5oeLFEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ODF5ouLFEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ODF5o-LFEeaI-9pTzyl9Xw" x="-37" y="10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ODF5pOLFEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ODF5peLFEeaI-9pTzyl9Xw" x="-18" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ODF5puLFEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ODF5p-LFEeaI-9pTzyl9Xw" x="-65" y="31"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ODF5qOLFEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ODF5qeLFEeaI-9pTzyl9Xw" x="-19" y="11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ODF5quLFEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ODF5q-LFEeaI-9pTzyl9Xw" x="5" y="-13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OC8IoeLFEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="StreamingVideo.uml#_OCWSwOLFEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OC8IouLFEeaI-9pTzyl9Xw" points="[750, 560, -643984, -643984]$[883, 560, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ODm3AOLFEeaI-9pTzyl9Xw" id="(1.0,0.4857142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ODm3AeLFEeaI-9pTzyl9Xw" id="(0.0,0.44537815126050423)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hgzPgOLFEeaI-9pTzyl9Xw" type="Association_Edge" source="_WLJivOLBEeaI-9pTzyl9Xw" target="_PjBYIOLBEeaI-9pTzyl9Xw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hgzPg-LFEeaI-9pTzyl9Xw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hgzPhOLFEeaI-9pTzyl9Xw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hgzPheLFEeaI-9pTzyl9Xw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hgzPhuLFEeaI-9pTzyl9Xw" y="-4"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hgzPh-LFEeaI-9pTzyl9Xw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hgzPiOLFEeaI-9pTzyl9Xw" y="-3"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hgzPieLFEeaI-9pTzyl9Xw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hgzPiuLFEeaI-9pTzyl9Xw" x="-2" y="96"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hgzPi-LFEeaI-9pTzyl9Xw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hgzPjOLFEeaI-9pTzyl9Xw" x="1" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hgzPjeLFEeaI-9pTzyl9Xw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hgzPjuLFEeaI-9pTzyl9Xw" x="-1" y="-7"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hgzPgeLFEeaI-9pTzyl9Xw"/>
+    <element xmi:type="uml:Association" href="StreamingVideo.uml#_hgd4UOLFEeaI-9pTzyl9Xw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hgzPguLFEeaI-9pTzyl9Xw" points="[1025, 443, -643984, -643984]$[1025, 507, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hhdW0OLFEeaI-9pTzyl9Xw" id="(0.5111111111111111,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hhdW0eLFEeaI-9pTzyl9Xw" id="(0.4797297297297297,0.0)"/>
+  </edges>
+</notation:Diagram>
