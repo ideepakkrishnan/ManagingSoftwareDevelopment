@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jsfKsOMXEeawL-2wmWjGCw" name="CoffeeShop">
+  <packagedElement xmi:type="uml:Class" xmi:id="_qP_T8OMXEeawL-2wmWjGCw" name="Person">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sfzacOMXEeawL-2wmWjGCw" name="name" visibility="private" type="_vKiiYOMXEeawL-2wmWjGCw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JBtUsOMYEeawL-2wmWjGCw" name="&lt;&lt;key>> id" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZTgSwOMZEeawL-2wmWjGCw" name="address" visibility="private" isUnique="false">
+      <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_MVmEoOHWEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZTgSweMZEeawL-2wmWjGCw" name="phoneNumber" visibility="private" isUnique="false">
+      <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_NodTUOHZEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_07-VgOMXEeawL-2wmWjGCw" name="getName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4yzdIOMXEeawL-2wmWjGCw" name="name" type="_vKiiYOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5e-moOMXEeawL-2wmWjGCw" name="setName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_87P5MOMXEeawL-2wmWjGCw" name="name" type="_vKiiYOMXEeawL-2wmWjGCw" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9q6bkOMXEeawL-2wmWjGCw" name="Person">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_A4WA4OMYEeawL-2wmWjGCw" name="name" type="_vKiiYOMXEeawL-2wmWjGCw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PpQ3gOMYEeawL-2wmWjGCw" name="getId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PpQ3geMYEeawL-2wmWjGCw" name="id" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_amtnEOMZEeawL-2wmWjGCw" name="getAddress">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_amtnEeMZEeawL-2wmWjGCw" name="address" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_MVmEoOHWEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_am3YEOMZEeawL-2wmWjGCw" name="setAddress">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_am3YEeMZEeawL-2wmWjGCw" name="address" isUnique="false" effect="update">
+        <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_MVmEoOHWEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_anAiAOMZEeawL-2wmWjGCw" name="getPhoneNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_anAiAeMZEeawL-2wmWjGCw" name="phoneNumber" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_NodTUOHZEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_anKTAOMZEeawL-2wmWjGCw" name="setPhoneNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_anKTAeMZEeawL-2wmWjGCw" name="phoneNumber" isUnique="false" effect="update">
+        <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_NodTUOHZEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_vKiiYOMXEeawL-2wmWjGCw" name="Text"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_wORQQOMXEeawL-2wmWjGCw" name="Number"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Fq2toOMYEeawL-2wmWjGCw" name="Customer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_4vhNsOMZEeawL-2wmWjGCw" general="_qP_T8OMXEeawL-2wmWjGCw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FCOK4OMZEeawL-2wmWjGCw" name="wallet" visibility="private" isUnique="false">
+      <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_vq2IsOHbEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HaV40OMZEeawL-2wmWjGCw" name="getWallet">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HaV40eMZEeawL-2wmWjGCw" name="wallet" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_vq2IsOHbEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HaV40uMZEeawL-2wmWjGCw" name="setWallet">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HaV40-MZEeawL-2wmWjGCw" name="wallet" isUnique="false" effect="update">
+        <type xmi:type="uml:Class" href="BusinessCustomerModel.uml#_vq2IsOHbEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cvMzAOMYEeawL-2wmWjGCw" name="CreditCard">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzAeMYEeawL-2wmWjGCw" name="cardType" visibility="private" type="_cvMzGuMYEeawL-2wmWjGCw" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzAuMYEeawL-2wmWjGCw" name="cardNumber" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzA-MYEeawL-2wmWjGCw" name="expiryDate" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzBOMYEeawL-2wmWjGCw" name="securityCode" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzBeMYEeawL-2wmWjGCw" name="issuingBank" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzBuMYEeawL-2wmWjGCw" name="getCardType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzB-MYEeawL-2wmWjGCw" name="cardType" type="_cvMzGuMYEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzCOMYEeawL-2wmWjGCw" name="setCardType" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzCeMYEeawL-2wmWjGCw" name="cardType" type="_cvMzGuMYEeawL-2wmWjGCw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzCuMYEeawL-2wmWjGCw" name="getCardNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzC-MYEeawL-2wmWjGCw" name="cardNumber" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzDOMYEeawL-2wmWjGCw" name="setCardNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzDeMYEeawL-2wmWjGCw" name="cardNumber" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzDuMYEeawL-2wmWjGCw" name="getExpiryDate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzD-MYEeawL-2wmWjGCw" name="expiryDate" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzEOMYEeawL-2wmWjGCw" name="setExpiryDate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzEeMYEeawL-2wmWjGCw" name="expiryDate" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzEuMYEeawL-2wmWjGCw" name="getSecurityCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzE-MYEeawL-2wmWjGCw" name="securityCode" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzFOMYEeawL-2wmWjGCw" name="setSecurityCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzFeMYEeawL-2wmWjGCw" name="securityCode" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzFuMYEeawL-2wmWjGCw" name="getIssuingBank">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzF-MYEeawL-2wmWjGCw" name="issuingBank" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzGOMYEeawL-2wmWjGCw" name="setIssuingBank">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzGeMYEeawL-2wmWjGCw" name="issuingBank" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_cvMzGuMYEeawL-2wmWjGCw" name="CreditCardType">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzG-MYEeawL-2wmWjGCw" name="Visa"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzHOMYEeawL-2wmWjGCw" name="AMEX"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzHeMYEeawL-2wmWjGCw" name="MC"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzHuMYEeawL-2wmWjGCw" name="Discover"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cvMzH-MYEeawL-2wmWjGCw" name="Wallet">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzIOMYEeawL-2wmWjGCw" name="creditCards" visibility="private" type="_cvMzAOMYEeawL-2wmWjGCw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cvMzIeMYEeawL-2wmWjGCw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cvMzIuMYEeawL-2wmWjGCw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzJuMYEeawL-2wmWjGCw" name="getCreditCards">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzJ-MYEeawL-2wmWjGCw" name="creditCards" type="_cvMzAOMYEeawL-2wmWjGCw" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cvMzKOMYEeawL-2wmWjGCw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cvMzKeMYEeawL-2wmWjGCw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzKuMYEeawL-2wmWjGCw" name="setCreditCards">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzK-MYEeawL-2wmWjGCw" name="creditCards" type="_cvMzAOMYEeawL-2wmWjGCw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cvMzLOMYEeawL-2wmWjGCw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cvMzLeMYEeawL-2wmWjGCw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QhFa4OMZEeawL-2wmWjGCw" name="Employee">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3vvLsOMZEeawL-2wmWjGCw" general="_qP_T8OMXEeawL-2wmWjGCw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VSDPgOMZEeawL-2wmWjGCw" name="userName" visibility="private">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VSDPgeMZEeawL-2wmWjGCw" name="password" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lr5LwOMZEeawL-2wmWjGCw" name="getUserName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lr5LweMZEeawL-2wmWjGCw" name="userName" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lsC8wOMZEeawL-2wmWjGCw" name="setUserName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lsC8weMZEeawL-2wmWjGCw" name="userName" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lsC8wuMZEeawL-2wmWjGCw" name="getPassword" concurrency="guarded">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lsC8w-MZEeawL-2wmWjGCw" name="password" isUnique="false" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lsMtwOMZEeawL-2wmWjGCw" name="setPassword">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lsMtweMZEeawL-2wmWjGCw" name="password" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7aJn8OMZEeawL-2wmWjGCw" name="has a" memberEnd="_7aJn8-MZEeawL-2wmWjGCw _7aJn9OMZEeawL-2wmWjGCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7aJn8eMZEeawL-2wmWjGCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7aJn8uMZEeawL-2wmWjGCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7aJn9OMZEeawL-2wmWjGCw" name="customer" type="_Fq2toOMYEeawL-2wmWjGCw" association="_7aJn8OMZEeawL-2wmWjGCw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FeVNMOMbEeawL-2wmWjGCw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fe3YsOMbEeawL-2wmWjGCw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7aJn8-MZEeawL-2wmWjGCw" name="wallet" type="_cvMzH-MYEeawL-2wmWjGCw" association="_7aJn8OMZEeawL-2wmWjGCw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxIgEOMaEeawL-2wmWjGCw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mxcCEOMaEeawL-2wmWjGCw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vv9BkOMbEeawL-2wmWjGCw" name="contains" memberEnd="_Vv9Bk-MbEeawL-2wmWjGCw _Vv9BlOMbEeawL-2wmWjGCw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vv9BkeMbEeawL-2wmWjGCw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vv9BkuMbEeawL-2wmWjGCw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Vv9BlOMbEeawL-2wmWjGCw" name="wallet" type="_cvMzH-MYEeawL-2wmWjGCw" association="_Vv9BkOMbEeawL-2wmWjGCw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PsIPMOMhEeaXuqFFvbxCSw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PsPj8OMhEeaXuqFFvbxCSw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Vv9Bk-MbEeawL-2wmWjGCw" name="creditcard" type="_cvMzAOMYEeawL-2wmWjGCw" association="_Vv9BkOMbEeawL-2wmWjGCw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OSfiwOMhEeaXuqFFvbxCSw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OSpTwOMhEeaXuqFFvbxCSw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Wli-EOMhEeaXuqFFvbxCSw" name="Date"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_g1qjAOMhEeaXuqFFvbxCSw" name="Item">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ovKO0OMhEeaXuqFFvbxCSw" name="&lt;&lt;key>> itemId" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OmzwcOMiEeaXuqFFvbxCSw" name="ingredients" visibility="private" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SkgVEOMiEeaXuqFFvbxCSw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Sknp0OMiEeaXuqFFvbxCSw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aSq6oOMiEeaXuqFFvbxCSw" name="price" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aefJEOMiEeaXuqFFvbxCSw" name="quantity" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bsDIYOMiEeaXuqFFvbxCSw" name="excludedIngredients" visibility="private" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bsDIYeMiEeaXuqFFvbxCSw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bsDIYuMiEeaXuqFFvbxCSw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xG3rMOMiEeaXuqFFvbxCSw" name="getItemId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xG3rMeMiEeaXuqFFvbxCSw" name="itemId" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1javAOMiEeaXuqFFvbxCSw" name="getIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1javAeMiEeaXuqFFvbxCSw" name="ingredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_63ssEOMiEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6312AOMiEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1jkgAOMiEeaXuqFFvbxCSw" name="setIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1jkgAeMiEeaXuqFFvbxCSw" name="ingredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" effect="update">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AGGDkOMjEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AGRpwOMjEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CBTzEOMjEeaXuqFFvbxCSw" name="addIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_GQaQwOMjEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IOr7UOMjEeaXuqFFvbxCSw" name="removeIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IOr7UeMjEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MbJUsOMjEeaXuqFFvbxCSw" name="getExcludedIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MbJUseMjEeaXuqFFvbxCSw" name="excludedIngredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MbJUsuMjEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MbJUs-MjEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MbJUtOMjEeaXuqFFvbxCSw" name="setExcludedIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MbJUteMjEeaXuqFFvbxCSw" name="excludedIngredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" effect="update">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MbJUtuMjEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MbJUt-MjEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MbcPoOMjEeaXuqFFvbxCSw" name="addExcludedIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MbcPoeMjEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MbmAoOMjEeaXuqFFvbxCSw" name="removeExcludedIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MbmAoeMjEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e7Go4OMjEeaXuqFFvbxCSw" name="getPrice">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_e7Go4eMjEeaXuqFFvbxCSw" name="price" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e7QZ4OMjEeaXuqFFvbxCSw" name="setPrice">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_e7QZ4eMjEeaXuqFFvbxCSw" name="price" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nvpAoOMjEeaXuqFFvbxCSw" name="getQuantity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nvpAoeMjEeaXuqFFvbxCSw" name="quantity" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nv108OMjEeaXuqFFvbxCSw" name="setQuantity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nv108eMjEeaXuqFFvbxCSw" name="quantity" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" effect="update"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_s-U98OMhEeaXuqFFvbxCSw" name="Ingredient">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_s-U98eMhEeaXuqFFvbxCSw" name="Milk"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_s-U98uMhEeaXuqFFvbxCSw" name="Coffee"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_s-U98-MhEeaXuqFFvbxCSw" name="WhippedCream"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_s-U99OMhEeaXuqFFvbxCSw" name="HotSauce"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_3OeYEOMhEeaXuqFFvbxCSw" name="SweetOnionSauce"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_3ScSEOMhEeaXuqFFvbxCSw" name="MustardSauce"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_3WHRIOMhEeaXuqFFvbxCSw" name="Pickle"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_3hRYQOMhEeaXuqFFvbxCSw" name="Lettuce"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_3jLcwOMhEeaXuqFFvbxCSw" name="Tomato"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_A2bw0OMiEeaXuqFFvbxCSw" name="Capsicum"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_A4MrYOMiEeaXuqFFvbxCSw" name="Bread"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_A5_bIOMiEeaXuqFFvbxCSw" name="Egg"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Hg3ogOMiEeaXuqFFvbxCSw" name="Chicken"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_HqthAOMiEeaXuqFFvbxCSw" name="Turkey"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BxAQwOMkEeaXuqFFvbxCSw" name="Order">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BxAQweMkEeaXuqFFvbxCSw" name="&lt;&lt;key>> orderId" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BxAQwuMkEeaXuqFFvbxCSw" name="ingredients" visibility="private" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxAQw-MkEeaXuqFFvbxCSw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxAQxOMkEeaXuqFFvbxCSw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BxAQxeMkEeaXuqFFvbxCSw" name="price" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BxAQxuMkEeaXuqFFvbxCSw" name="quantity" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BxAQx-MkEeaXuqFFvbxCSw" name="excludedIngredients" visibility="private" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxAQyOMkEeaXuqFFvbxCSw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxAQyeMkEeaXuqFFvbxCSw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQyuMkEeaXuqFFvbxCSw" name="getOrderId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQy-MkEeaXuqFFvbxCSw" name="itemId" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQzOMkEeaXuqFFvbxCSw" name="getIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQzeMkEeaXuqFFvbxCSw" name="ingredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxAQzuMkEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxAQz-MkEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ0OMkEeaXuqFFvbxCSw" name="setIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ0eMkEeaXuqFFvbxCSw" name="ingredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" effect="update">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxAQ0uMkEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxAQ0-MkEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ1OMkEeaXuqFFvbxCSw" name="addIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ1eMkEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ1uMkEeaXuqFFvbxCSw" name="removeIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ1-MkEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ2OMkEeaXuqFFvbxCSw" name="getExcludedIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ2eMkEeaXuqFFvbxCSw" name="excludedIngredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxAQ2uMkEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxAQ2-MkEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ3OMkEeaXuqFFvbxCSw" name="setExcludedIngredients">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ3eMkEeaXuqFFvbxCSw" name="excludedIngredients" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false" effect="update">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxAQ3uMkEeaXuqFFvbxCSw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxAQ3-MkEeaXuqFFvbxCSw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ4OMkEeaXuqFFvbxCSw" name="addExcludedIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ4eMkEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ4uMkEeaXuqFFvbxCSw" name="removeExcludedIngredient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ4-MkEeaXuqFFvbxCSw" name="ingredient" type="_s-U98OMhEeaXuqFFvbxCSw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ5OMkEeaXuqFFvbxCSw" name="getPrice">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ5eMkEeaXuqFFvbxCSw" name="price" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ5uMkEeaXuqFFvbxCSw" name="setPrice">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ5-MkEeaXuqFFvbxCSw" name="price" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ6OMkEeaXuqFFvbxCSw" name="getQuantity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ6eMkEeaXuqFFvbxCSw" name="quantity" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BxAQ6uMkEeaXuqFFvbxCSw" name="setQuantity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BxAQ6-MkEeaXuqFFvbxCSw" name="quantity" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" effect="update"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

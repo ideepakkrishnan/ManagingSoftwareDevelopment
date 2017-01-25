@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jsfKsOMXEeawL-2wmWjGCw" name="CoffeeShop">
+  <packagedElement xmi:type="uml:Class" xmi:id="_qP_T8OMXEeawL-2wmWjGCw" name="Person">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sfzacOMXEeawL-2wmWjGCw" name="name" visibility="private" type="_vKiiYOMXEeawL-2wmWjGCw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JBtUsOMYEeawL-2wmWjGCw" name="&lt;&lt;key>> id" visibility="private" type="_wORQQOMXEeawL-2wmWjGCw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_07-VgOMXEeawL-2wmWjGCw" name="getName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4yzdIOMXEeawL-2wmWjGCw" name="name" type="_vKiiYOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5e-moOMXEeawL-2wmWjGCw" name="setName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_87P5MOMXEeawL-2wmWjGCw" name="name" type="_vKiiYOMXEeawL-2wmWjGCw" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9q6bkOMXEeawL-2wmWjGCw" name="Person">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_A4WA4OMYEeawL-2wmWjGCw" name="name" type="_vKiiYOMXEeawL-2wmWjGCw" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PpQ3gOMYEeawL-2wmWjGCw" name="getId">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PpQ3geMYEeawL-2wmWjGCw" name="id" type="_wORQQOMXEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_vKiiYOMXEeawL-2wmWjGCw" name="Text"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_wORQQOMXEeawL-2wmWjGCw" name="Number"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Fq2toOMYEeawL-2wmWjGCw" name="Customer"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cvMzAOMYEeawL-2wmWjGCw" name="CreditCard">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzAeMYEeawL-2wmWjGCw" name="cardType" visibility="private" type="_cvMzGuMYEeawL-2wmWjGCw" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzAuMYEeawL-2wmWjGCw" name="cardNumber" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzA-MYEeawL-2wmWjGCw" name="expiryDate" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzBOMYEeawL-2wmWjGCw" name="securityCode" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzBeMYEeawL-2wmWjGCw" name="issuingBank" visibility="private" isUnique="false">
+      <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzBuMYEeawL-2wmWjGCw" name="getCardType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzB-MYEeawL-2wmWjGCw" name="cardType" type="_cvMzGuMYEeawL-2wmWjGCw" isUnique="false" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzCOMYEeawL-2wmWjGCw" name="setCardType" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzCeMYEeawL-2wmWjGCw" name="cardType" type="_cvMzGuMYEeawL-2wmWjGCw" isUnique="false" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzCuMYEeawL-2wmWjGCw" name="getCardNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzC-MYEeawL-2wmWjGCw" name="cardNumber" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzDOMYEeawL-2wmWjGCw" name="setCardNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzDeMYEeawL-2wmWjGCw" name="cardNumber" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzDuMYEeawL-2wmWjGCw" name="getExpiryDate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzD-MYEeawL-2wmWjGCw" name="expiryDate" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzEOMYEeawL-2wmWjGCw" name="setExpiryDate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzEeMYEeawL-2wmWjGCw" name="expiryDate" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzEuMYEeawL-2wmWjGCw" name="getSecurityCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzE-MYEeawL-2wmWjGCw" name="securityCode" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzFOMYEeawL-2wmWjGCw" name="setSecurityCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzFeMYEeawL-2wmWjGCw" name="securityCode" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzFuMYEeawL-2wmWjGCw" name="getIssuingBank">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzF-MYEeawL-2wmWjGCw" name="issuingBank" isUnique="false" direction="return" effect="read">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzGOMYEeawL-2wmWjGCw" name="setIssuingBank">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzGeMYEeawL-2wmWjGCw" name="issuingBank" isUnique="false" effect="update">
+        <type xmi:type="uml:DataType" href="BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_cvMzGuMYEeawL-2wmWjGCw" name="CreditCardType">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzG-MYEeawL-2wmWjGCw" name="Visa"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzHOMYEeawL-2wmWjGCw" name="AMEX"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzHeMYEeawL-2wmWjGCw" name="MC"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cvMzHuMYEeawL-2wmWjGCw" name="Discover"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cvMzH-MYEeawL-2wmWjGCw" name="Wallet">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cvMzIOMYEeawL-2wmWjGCw" name="creditCards" visibility="private" type="_cvMzAOMYEeawL-2wmWjGCw" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cvMzIeMYEeawL-2wmWjGCw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cvMzIuMYEeawL-2wmWjGCw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzJuMYEeawL-2wmWjGCw" name="getCreditCards">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzJ-MYEeawL-2wmWjGCw" name="creditCards" type="_cvMzAOMYEeawL-2wmWjGCw" direction="return" effect="read">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cvMzKOMYEeawL-2wmWjGCw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cvMzKeMYEeawL-2wmWjGCw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cvMzKuMYEeawL-2wmWjGCw" name="setCreditCards">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cvMzK-MYEeawL-2wmWjGCw" name="creditCards" type="_cvMzAOMYEeawL-2wmWjGCw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cvMzLOMYEeawL-2wmWjGCw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cvMzLeMYEeawL-2wmWjGCw" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

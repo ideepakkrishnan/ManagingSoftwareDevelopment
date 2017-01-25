@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_juQFQOMXEeawL-2wmWjGCw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_qQId4OMXEeawL-2wmWjGCw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qQId4uMXEeawL-2wmWjGCw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qQId4-MXEeawL-2wmWjGCw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qQId5OMXEeawL-2wmWjGCw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qQId5eMXEeawL-2wmWjGCw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_x0ausOMXEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_sfzacOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x0auseMXEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ONTP0OMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_JBtUsOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ONTP0eMYEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qQId5uMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qQId5-MXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qQId6OMXEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId6eMXEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qQId6uMXEeawL-2wmWjGCw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_BtqfUOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_07-VgOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BtqfUeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Bt9aQOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_5e-moOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Bt9aQeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BuHLQOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_9q6bkOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BuHLQeMYEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qQId6-MXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qQId7OMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qQId7eMXEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId7uMXEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qQId7-MXEeawL-2wmWjGCw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qQId8OMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qQId8eMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qQId8uMXEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId8-MXEeawL-2wmWjGCw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_qP_T8OMXEeawL-2wmWjGCw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId4eMXEeawL-2wmWjGCw" x="205" y="124"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_juQFQeMXEeawL-2wmWjGCw" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_juQFQuMXEeawL-2wmWjGCw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_juQFQ-MXEeawL-2wmWjGCw">
+    <owner xmi:type="uml:Model" href="coffeeShop.uml#_jsfKsOMXEeawL-2wmWjGCw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="coffeeShop.uml#_jsfKsOMXEeawL-2wmWjGCw"/>
+</notation:Diagram>

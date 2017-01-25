@@ -3,6 +3,12 @@
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:Type:type">
 		<section name="History">
 			<list key="PreviousSelection">
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_s-U98OMhEeaXuqFFvbxCSw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_vKiiYOMXEeawL-2wmWjGCw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_OefIEOK4EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_oMTQcOLAEeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_JWDm8OK-EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#__lS-4OK6EeaI-9pTzyl9Xw"/>
 				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3DKA-J1EeaioaQWY9uEVQ"/>
 				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3IpYOJ1EeaioaQWY9uEVQ"/>
 				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_Vo4P0OKEEeaioaQWY9uEVQ"/>
@@ -12,12 +18,6 @@
 				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_hoVvoOJ9EeaioaQWY9uEVQ"/>
 				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3FmEOJ1EeaioaQWY9uEVQ"/>
 				<item value="platform:/resource/MSD_HW1/NetflixCustomer.uml#_m3LssOJ1EeaioaQWY9uEVQ"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_OGDgYOH8Eea_CsXze3-R9Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_5J5H8OHZEea9E-2iFoWl3Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_kMFHsOHNEea9E-2iFoWl3Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_JiJTUOHbEea9E-2iFoWl3Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_AuKKoOHaEea9E-2iFoWl3Q"/>
-				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_PgclIOHYEea9E-2iFoWl3Q"/>
 			</list>
 		</section>
 	</section>
@@ -29,6 +29,20 @@
 		</section>
 	</section>
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/BusinessCustomerModel.uml:uml:Behavior:method">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/coffeeShop.uml:uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_hhr3UOMoEeaXuqFFvbxCSw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_xwePkOMnEeaXuqFFvbxCSw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_WcbFAOMmEeaXuqFFvbxCSw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_g1qjAOMhEeaXuqFFvbxCSw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_qP_T8OMXEeawL-2wmWjGCw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_wORQQOMXEeawL-2wmWjGCw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_s-U98OMhEeaXuqFFvbxCSw"/>
+				<item value="platform:/resource/MSD_HW1/coffeeShop.uml#_vKiiYOMXEeawL-2wmWjGCw"/>
+			</list>
+		</section>
 	</section>
 	<section name="org.eclipse.papyrus.infra.ui.emf.customizationManager">
 	</section>
@@ -45,10 +59,28 @@
 	</section>
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/BusinessCustomerModel.uml:uml:Behavior:behavior">
 	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/coffeeShop.uml:uml:Classifier:subject">
+	</section>
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history_container_platform:/resource/MSD_HW1/BusinessCustomerModel.uml:uml:Behavior:method">
 		<section name="History">
 			<list key="PreviousSelection">
 				<item value="platform:/resource/MSD_HW1/BusinessCustomerModel.uml#_FbhaAOHMEea9E-2iFoWl3Q"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/MSD_HW1/StreamingVideo.uml:uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_ucPBoOK5EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_eHHeQOLCEeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_OefIEOK4EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_WLJisOLBEeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_oMTQcOLAEeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_j0cmwOK9EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_JWDm8OK-EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_0Kwt4OK9EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#_E5CQwOK4EeaI-9pTzyl9Xw"/>
+				<item value="platform:/resource/MSD_HW1/StreamingVideo.uml#__lS-4OK6EeaI-9pTzyl9Xw"/>
 			</list>
 		</section>
 	</section>

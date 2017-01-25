@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_juQFQOMXEeawL-2wmWjGCw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_qQId4OMXEeawL-2wmWjGCw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qQId4uMXEeawL-2wmWjGCw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qQId4-MXEeawL-2wmWjGCw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qQId5OMXEeawL-2wmWjGCw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qQId5eMXEeawL-2wmWjGCw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_x0ausOMXEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_sfzacOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_x0auseMXEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ONTP0OMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_JBtUsOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ONTP0eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_dmRIcOMZEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_ZTgSwOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dmRIceMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_dmd8wOMZEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_ZTgSweMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dmd8weMZEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qQId5uMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qQId5-MXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qQId6OMXEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId6eMXEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qQId6uMXEeawL-2wmWjGCw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_BtqfUOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_07-VgOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BtqfUeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Bt9aQOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_5e-moOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Bt9aQeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BuHLQOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_9q6bkOMXEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BuHLQeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_VWYLUOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_PpQ3gOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VWYLUeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eW-zsOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_amtnEOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eW-zseMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eXPSYOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_am3YEOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eXPSYeMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eXiNUOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_anAiAOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eXiNUeMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eXrXQOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_anKTAOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eXrXQeMZEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qQId6-MXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qQId7OMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qQId7eMXEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId7uMXEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qQId7-MXEeawL-2wmWjGCw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qQId8OMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qQId8eMXEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qQId8uMXEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId8-MXEeawL-2wmWjGCw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_qP_T8OMXEeawL-2wmWjGCw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQId4eMXEeawL-2wmWjGCw" x="55" y="125"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_dthccOMYEeawL-2wmWjGCw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dthccuMYEeawL-2wmWjGCw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_dthcc-MYEeawL-2wmWjGCw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dthcdOMYEeawL-2wmWjGCw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dthcdeMYEeawL-2wmWjGCw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_ebNo4OMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_cvMzAeMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ebNo4eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ebXZ4OMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_cvMzAuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ebXZ4eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ebgj0OMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_cvMzA-MYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ebgj0eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eb0F0OMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_cvMzBOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eb0F0eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eb9PwOMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_cvMzBeMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eb9PweMYEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_dthcduMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dthcd-MYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dthceOMYEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dthceeMYEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dthceuMYEeawL-2wmWjGCw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_fKE6AOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzBuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fKE6AeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fKOD8OMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzCOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fKOD8eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fKOD8uMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzCuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fKOD8-MYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fKX08OMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzDOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fKX08eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fKhl8OMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzDuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fKhl8eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fKqv4OMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzEOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fKqv4eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fK0g4OMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzEuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fK0g4eMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fLB8QOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzFOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fLB8QeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fLLtQOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzFuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fLLtQeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fLVeQOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzGOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fLVeQeMYEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_dthce-MYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dthcfOMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dthcfeMYEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dthcfuMYEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dthcf-MYEeawL-2wmWjGCw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_dthcgOMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dthcgeMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dthcguMYEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dthcg-MYEeawL-2wmWjGCw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_cvMzAOMYEeawL-2wmWjGCw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dthcceMYEeawL-2wmWjGCw" x="712" y="94"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_gQTiQOMYEeawL-2wmWjGCw" type="Enumeration_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gQTiQuMYEeawL-2wmWjGCw" type="Enumeration_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gQTiQ-MYEeawL-2wmWjGCw" type="Enumeration_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gQTiROMYEeawL-2wmWjGCw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_gQTiReMYEeawL-2wmWjGCw" type="Enumeration_LiteralCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_kSaFwOMYEeawL-2wmWjGCw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_cvMzG-MYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kSaFweMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kSj2wOMYEeawL-2wmWjGCw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_cvMzHOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kSj2weMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kSxSIOMYEeawL-2wmWjGCw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_cvMzHeMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kSxSIeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kS7DIOMYEeawL-2wmWjGCw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_cvMzHuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kS7DIeMYEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_gQTiRuMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_gQTiR-MYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_gQTiSOMYEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gQTiSeMYEeawL-2wmWjGCw"/>
+    </children>
+    <element xmi:type="uml:Enumeration" href="coffeeShop.uml#_cvMzGuMYEeawL-2wmWjGCw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gQTiQeMYEeawL-2wmWjGCw" x="1061" y="93" width="140"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lxTFoOMYEeawL-2wmWjGCw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lxTFouMYEeawL-2wmWjGCw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lxTFo-MYEeawL-2wmWjGCw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lxTFpOMYEeawL-2wmWjGCw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lxTFpeMYEeawL-2wmWjGCw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_nNFHIOMYEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_cvMzIOMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nNFHIeMYEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lxTFpuMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lxTFp-MYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lxTFqOMYEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxTFqeMYEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lxTFquMYEeawL-2wmWjGCw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_oCMKMOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzJuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oCMKMeMYEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_oCVUIOMYEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_cvMzKuMYEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oCVUIeMYEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lxTFq-MYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lxTFrOMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lxTFreMYEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxTFruMYEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lxTFr-MYEeawL-2wmWjGCw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lxTFsOMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lxTFseMYEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lxTFsuMYEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxTFs-MYEeawL-2wmWjGCw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_cvMzH-MYEeawL-2wmWjGCw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxTFoeMYEeawL-2wmWjGCw" x="720" y="497"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_IuZhsOMZEeawL-2wmWjGCw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IuZhsuMZEeawL-2wmWjGCw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IuZhs-MZEeawL-2wmWjGCw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IuZhtOMZEeawL-2wmWjGCw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_IuZhteMZEeawL-2wmWjGCw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_KJSyYOMZEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_FCOK4OMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KJSyYeMZEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_IuZhtuMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_IuZht-MZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_IuZhuOMZEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuZhueMZEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_IuZhuuMZEeawL-2wmWjGCw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Kvt5MOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_HaV40OMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Kvt5MeMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Kv3qMOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_HaV40uMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Kv3qMeMZEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_IuZhu-MZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_IuZhvOMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_IuZhveMZEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuZhvuMZEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_IuZhv-MZEeawL-2wmWjGCw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_IuZhwOMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_IuZhweMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_IuZhwuMZEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuZhw-MZEeawL-2wmWjGCw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_Fq2toOMYEeawL-2wmWjGCw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuZhseMZEeawL-2wmWjGCw" x="341" y="501"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_mMAPMOMZEeawL-2wmWjGCw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mMAPMuMZEeawL-2wmWjGCw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mMAPM-MZEeawL-2wmWjGCw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mMAPNOMZEeawL-2wmWjGCw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_mMAPNeMZEeawL-2wmWjGCw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_pYOTkOMZEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_VSDPgOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pYOTkeMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_pYdkIOMZEeawL-2wmWjGCw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_VSDPgeMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pYdkIeMZEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mMAPNuMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_mMAPN-MZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_mMAPOOMZEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mMAPOeMZEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_mMAPOuMZEeawL-2wmWjGCw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_p7v3YOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_lr5LwOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p7v3YeMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_p8GcsOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_lsC8wOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p8GcseMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_p8QNsOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_lsC8wuMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p8QNseMZEeawL-2wmWjGCw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_p8jIoOMZEeawL-2wmWjGCw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_lsMtwOMZEeawL-2wmWjGCw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p8jIoeMZEeawL-2wmWjGCw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mMAPO-MZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_mMAPPOMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_mMAPPeMZEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mMAPPuMZEeawL-2wmWjGCw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_mMAPP-MZEeawL-2wmWjGCw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mMAPQOMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_mMAPQeMZEeawL-2wmWjGCw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_mMAPQuMZEeawL-2wmWjGCw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mMAPQ-MZEeawL-2wmWjGCw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_QhFa4OMZEeawL-2wmWjGCw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mMAPMeMZEeawL-2wmWjGCw" x="57" y="502"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_irk7wOMhEeaXuqFFvbxCSw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_irk7wuMhEeaXuqFFvbxCSw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_irk7w-MhEeaXuqFFvbxCSw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_irk7xOMhEeaXuqFFvbxCSw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_irk7xeMhEeaXuqFFvbxCSw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_wXCUQOMjEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_ovKO0OMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wXC7UOMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wXfnQOMjEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_OmzwcOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wXfnQeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wX6eAOMjEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_aSq6oOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wX6eAeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wYV70OMjEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_aefJEOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wYV70eMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wYyAsOMjEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_bsDIYOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wYyAseMjEeaXuqFFvbxCSw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_irk7xuMhEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_irk7x-MhEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_irk7yOMhEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_irk7yeMhEeaXuqFFvbxCSw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_irk7yuMhEeaXuqFFvbxCSw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_xGbw4OMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_xG3rMOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xGbw4eMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xG98YOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_1javAOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xG98YeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xHeSsOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_1jkgAOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xHeSseMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xIAeMOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_CBTzEOMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIAeMeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xIeYQOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_IOr7UOMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xIeYQeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xI_VoOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_MbJUsOMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xI_VoeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xJgTAOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_MbJUtOMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xJgTAeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xJ_bMOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_MbcPoOMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xJ_bMeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xKfxgOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_MbmAoOMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xKfxgeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xK_gwOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_e7Go4OMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xK_gweMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xLf3EOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_e7QZ4OMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xLf3EeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xL8jAOMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_nvpAoOMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xL8jAeMjEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xMZO8OMjEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_nv108OMjEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xMZO8eMjEeaXuqFFvbxCSw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_irk7y-MhEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_irk7zOMhEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_irk7zeMhEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_irk7zuMhEeaXuqFFvbxCSw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_irk7z-MhEeaXuqFFvbxCSw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_irk70OMhEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_irk70eMhEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_irk70uMhEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_irk70-MhEeaXuqFFvbxCSw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_g1qjAOMhEeaXuqFFvbxCSw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_irk7weMhEeaXuqFFvbxCSw" x="592" y="-556"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_LtKp0OMiEeaXuqFFvbxCSw" type="Enumeration_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LtKp0uMiEeaXuqFFvbxCSw" type="Enumeration_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LtKp0-MiEeaXuqFFvbxCSw" type="Enumeration_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LtKp1OMiEeaXuqFFvbxCSw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LtKp1eMiEeaXuqFFvbxCSw" type="Enumeration_LiteralCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_MThfMOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_s-U98eMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MThfMeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MUH8IOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_s-U98uMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MUH8IeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MUoScOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_s-U98-MhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MUoSceMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MVE-YOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_s-U99OMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MVE-YeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MVvFsOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_3OeYEOMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MVvFseMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MWPcAOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_3ScSEOMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MWPcAeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MWsH8OMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_3WHRIOMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MWsH8eMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MXNFUOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_3hRYQOMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MXNFUeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MXgAQOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_3jLcwOMhEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MXgAQeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MXy7MOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_A2bw0OMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MXy7MeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MYT4kOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_A4MrYOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MYT4keMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MYwkgOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_A5_bIOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MYwkgeMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MZQ60OMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_Hg3ogOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MZQ60eMiEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MZj1wOMiEeaXuqFFvbxCSw" type="EnumerationLiteral_LiteralLabel">
+        <element xmi:type="uml:EnumerationLiteral" href="coffeeShop.uml#_HqthAOMiEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MZj1weMiEeaXuqFFvbxCSw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_LtKp1uMiEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LtKp1-MiEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LtKp2OMiEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LtKp2eMiEeaXuqFFvbxCSw"/>
+    </children>
+    <element xmi:type="uml:Enumeration" href="coffeeShop.uml#_s-U98OMhEeaXuqFFvbxCSw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LtKp0eMiEeaXuqFFvbxCSw" x="1078" y="-558"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CHRJwOMmEeaXuqFFvbxCSw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CHRJwuMmEeaXuqFFvbxCSw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CHRJw-MmEeaXuqFFvbxCSw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CHRJxOMmEeaXuqFFvbxCSw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CHRJxeMmEeaXuqFFvbxCSw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_DRF4kOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_BxAQweMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DRF4keMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DRdE8OMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_0bhLcOMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DRdE8eMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DR5w4OMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_BxAQwuMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DR5w4eMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DSj4MOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_BxAQxuMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DSj4MeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DTAkIOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_Msw-QOMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DTAkIeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DTg6cOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_BxAQx-MkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DTg6ceMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DUGwUOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_BxAQxeMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DUGwUeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DUd8sOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_ZxBewOMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DUd8seMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_86r6sOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_yGWOYOMmEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_86r6seMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_87CgAOMmEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_3o9iYOMmEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_87CgAeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CHRJxuMmEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CHRJx-MmEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CHRJyOMmEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CHRJyeMmEeaXuqFFvbxCSw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CHRJyuMmEeaXuqFFvbxCSw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_9jOhYOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQyuMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9jOhYeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9jqmQOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_0bqVYOMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9jqmQeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9j9hMOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_0byRMOMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9j9hMeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9ka0MOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQzOMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9ka0MeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9knogOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQ0OMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9knogeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9lEUcOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQ1OMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9lEUceMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9la5wOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQ1uMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9la5weMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9l3lsOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQ6OMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9l3lseMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9mKgoOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQ6uMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9mKgoeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9mhtAOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_P8FZ8OMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9mhtAeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9m0n8OMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_P8PK8OMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9m0n8eMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9nIJ8OMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQ5uMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9nIJ8eMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9nevQOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BxAQ5OMkEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9nevQeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9nyRQOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_dPvoYOMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9nyRQeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9oFMMOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_dP5ZYOMlEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9oFMMeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9oligOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_F4JaYOMmEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9oligeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9pCOcOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_MXdnMOMmEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9pCOceMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9pikwOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_YhNAMOMmEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9pikweMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9p_QsOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_gtEOYOMmEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9p_QseMmEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9qaugOMmEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_pB6ZcOMmEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9qaugeMmEeaXuqFFvbxCSw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CHRJy-MmEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CHRJzOMmEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CHRJzeMmEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CHRJzuMmEeaXuqFFvbxCSw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CHRJz-MmEeaXuqFFvbxCSw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CHRJ0OMmEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CHRJ0eMmEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CHRJ0uMmEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CHRJ0-MmEeaXuqFFvbxCSw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_BxAQwOMkEeaXuqFFvbxCSw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CHRJweMmEeaXuqFFvbxCSw" x="146" y="-586"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_eGwokOMoEeaXuqFFvbxCSw" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eGx2sOMoEeaXuqFFvbxCSw" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eGx2seMoEeaXuqFFvbxCSw" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eGx2suMoEeaXuqFFvbxCSw" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_eGx2s-MoEeaXuqFFvbxCSw" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_e5aNgOMoEeaXuqFFvbxCSw" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="coffeeShop.uml#_7DvxwOMnEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_e5aNgeMoEeaXuqFFvbxCSw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_eGx2tOMoEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eGx2teMoEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eGx2tuMoEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGx2t-MoEeaXuqFFvbxCSw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_eGydwOMoEeaXuqFFvbxCSw" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_fZFMEOMoEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BQlugOMoEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fZFMEeMoEeaXuqFFvbxCSw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_fZjtMOMoEeaXuqFFvbxCSw" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="coffeeShop.uml#_BQu4cOMoEeaXuqFFvbxCSw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fZjtMeMoEeaXuqFFvbxCSw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_eGydweMoEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eGydwuMoEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eGydw-MoEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGydxOMoEeaXuqFFvbxCSw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_eGydxeMoEeaXuqFFvbxCSw" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_eGydxuMoEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eGydx-MoEeaXuqFFvbxCSw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eGydyOMoEeaXuqFFvbxCSw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGydyeMoEeaXuqFFvbxCSw"/>
+    </children>
+    <element xmi:type="uml:Class" href="coffeeShop.uml#_vKK7sOMnEeaXuqFFvbxCSw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eGxPoOMoEeaXuqFFvbxCSw" x="593" y="-117"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_juQFQeMXEeawL-2wmWjGCw" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_juQFQuMXEeawL-2wmWjGCw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_juQFQ-MXEeawL-2wmWjGCw">
+    <owner xmi:type="uml:Model" href="coffeeShop.uml#_jsfKsOMXEeawL-2wmWjGCw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="coffeeShop.uml#_jsfKsOMXEeawL-2wmWjGCw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_3wQJEOMZEeawL-2wmWjGCw" type="Generalization_Edge" source="_mMAPMOMZEeawL-2wmWjGCw" target="_qQId4OMXEeawL-2wmWjGCw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3wQJE-MZEeawL-2wmWjGCw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3wQJFOMZEeawL-2wmWjGCw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3wQJEeMZEeawL-2wmWjGCw"/>
+    <element xmi:type="uml:Generalization" href="coffeeShop.uml#_3vvLsOMZEeawL-2wmWjGCw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3wQJEuMZEeawL-2wmWjGCw" points="[173, 502, -643984, -643984]$[192, 388, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3w6QYOMZEeawL-2wmWjGCw" id="(0.5155555555555555,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3w6QYeMZEeawL-2wmWjGCw" id="(0.4176829268292683,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4wUe8OMZEeawL-2wmWjGCw" type="Generalization_Edge" source="_IuZhsOMZEeawL-2wmWjGCw" target="_qQId4OMXEeawL-2wmWjGCw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4wUe8-MZEeawL-2wmWjGCw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4wUe9OMZEeawL-2wmWjGCw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4wUe8eMZEeawL-2wmWjGCw"/>
+    <element xmi:type="uml:Generalization" href="coffeeShop.uml#_4vhNsOMZEeawL-2wmWjGCw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4wUe8uMZEeawL-2wmWjGCw" points="[419, 501, -643984, -643984]$[288, 388, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4w-mQOMZEeawL-2wmWjGCw" id="(0.4083769633507853,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4w-mQeMZEeawL-2wmWjGCw" id="(0.7103658536585366,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7awE4OMZEeawL-2wmWjGCw" type="Association_Edge" source="_IuZhsOMZEeawL-2wmWjGCw" target="_lxTFoOMYEeawL-2wmWjGCw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7awE4-MZEeawL-2wmWjGCw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7awE5OMZEeawL-2wmWjGCw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7awE5eMZEeawL-2wmWjGCw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7awE5uMZEeawL-2wmWjGCw" x="-20" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7awE5-MZEeawL-2wmWjGCw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7awE6OMZEeawL-2wmWjGCw" x="-25" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7awE6eMZEeawL-2wmWjGCw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7awE6uMZEeawL-2wmWjGCw" x="-23" y="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7awE6-MZEeawL-2wmWjGCw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7awE7OMZEeawL-2wmWjGCw" x="-22" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7awE7eMZEeawL-2wmWjGCw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7awE7uMZEeawL-2wmWjGCw" y="-12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7awE4eMZEeawL-2wmWjGCw"/>
+    <element xmi:type="uml:Association" href="coffeeShop.uml#_7aJn8OMZEeawL-2wmWjGCw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7awE4uMZEeawL-2wmWjGCw" points="[532, 540, -643984, -643984]$[720, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7bQbMOMZEeawL-2wmWjGCw" id="(1.0,0.3277310924369748)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7bQbMeMZEeawL-2wmWjGCw" id="(0.0,0.36134453781512604)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VwdX4OMbEeawL-2wmWjGCw" type="Association_Edge" source="_lxTFoOMYEeawL-2wmWjGCw" target="_dthccOMYEeawL-2wmWjGCw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VwdX4-MbEeawL-2wmWjGCw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VwdX5OMbEeawL-2wmWjGCw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VwdX5eMbEeawL-2wmWjGCw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VwdX5uMbEeawL-2wmWjGCw" x="-1" y="8"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VwdX5-MbEeawL-2wmWjGCw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VwdX6OMbEeawL-2wmWjGCw" x="-3" y="-54"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VwdX6eMbEeawL-2wmWjGCw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VwdX6uMbEeawL-2wmWjGCw" x="2" y="9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VwdX6-MbEeawL-2wmWjGCw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VwdX7OMbEeawL-2wmWjGCw" x="-1" y="9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VwdX7eMbEeawL-2wmWjGCw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VwdX7uMbEeawL-2wmWjGCw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VwdX4eMbEeawL-2wmWjGCw"/>
+    <element xmi:type="uml:Association" href="coffeeShop.uml#_Vv9BkOMbEeawL-2wmWjGCw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VwdX4uMbEeawL-2wmWjGCw" points="[856, 497, -643984, -643984]$[856, 405, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VxRQMOMbEeawL-2wmWjGCw" id="(0.5018450184501845,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VxRQMeMbEeawL-2wmWjGCw" id="(0.5255474452554745,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JK9ZgOMnEeaXuqFFvbxCSw" type="Association_Edge" source="_CHRJwOMmEeaXuqFFvbxCSw" target="_irk7wOMhEeaXuqFFvbxCSw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JK9Zg-MnEeaXuqFFvbxCSw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JK9ZhOMnEeaXuqFFvbxCSw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JK9ZheMnEeaXuqFFvbxCSw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JK9ZhuMnEeaXuqFFvbxCSw" x="-28" y="12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JK9Zh-MnEeaXuqFFvbxCSw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JK9ZiOMnEeaXuqFFvbxCSw" x="-26" y="-14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JK9ZieMnEeaXuqFFvbxCSw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JK9ZiuMnEeaXuqFFvbxCSw" x="-15" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JK9Zi-MnEeaXuqFFvbxCSw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JK9ZjOMnEeaXuqFFvbxCSw" x="-23" y="16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JK9ZjeMnEeaXuqFFvbxCSw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JK9ZjuMnEeaXuqFFvbxCSw" x="11" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_JK9ZgeMnEeaXuqFFvbxCSw"/>
+    <element xmi:type="uml:Association" href="coffeeShop.uml#_JKKIQOMnEeaXuqFFvbxCSw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JK9ZguMnEeaXuqFFvbxCSw" points="[377, -444, -643984, -643984]$[592, -444, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JL6bwOMnEeaXuqFFvbxCSw" id="(1.0,0.2577132486388385)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JL6bweMnEeaXuqFFvbxCSw" id="(0.0,0.31197771587743733)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WwFLYOMnEeaXuqFFvbxCSw" type="Association_Edge" source="_CHRJwOMmEeaXuqFFvbxCSw" target="_qQId4OMXEeawL-2wmWjGCw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WwFLY-MnEeaXuqFFvbxCSw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WwFLZOMnEeaXuqFFvbxCSw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WwFLZeMnEeaXuqFFvbxCSw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WwFLZuMnEeaXuqFFvbxCSw" x="-4" y="-7"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WwFLZ-MnEeaXuqFFvbxCSw" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WwFLaOMnEeaXuqFFvbxCSw" x="-9" y="-8"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WwFLaeMnEeaXuqFFvbxCSw" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WwFLauMnEeaXuqFFvbxCSw" x="7" y="66"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WwFLa-MnEeaXuqFFvbxCSw" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WwFLbOMnEeaXuqFFvbxCSw" x="-9" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WwFLbeMnEeaXuqFFvbxCSw" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WwFLbuMnEeaXuqFFvbxCSw" x="10" y="-13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WwFLYeMnEeaXuqFFvbxCSw"/>
+    <element xmi:type="uml:Association" href="coffeeShop.uml#_WvbEEOMnEeaXuqFFvbxCSw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WwFLYuMnEeaXuqFFvbxCSw" points="[259, -35, -643984, -643984]$[259, 125, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WwrBQOMnEeaXuqFFvbxCSw" id="(0.48917748917748916,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WwrBQeMnEeaXuqFFvbxCSw" id="(0.6219512195121951,0.0)"/>
+  </edges>
+</notation:Diagram>
