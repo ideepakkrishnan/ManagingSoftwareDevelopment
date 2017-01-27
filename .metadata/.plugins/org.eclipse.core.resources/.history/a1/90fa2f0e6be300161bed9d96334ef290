@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WepegONmEeaaapTjTSZMxw" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_WepegeNmEeaaapTjTSZMxw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WepeguNmEeaaapTjTSZMxw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Wepeg-NmEeaaapTjTSZMxw" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_NyE6gONnEeaaapTjTSZMxw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NyFhkONnEeaaapTjTSZMxw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="coffeeShop-sequence.uml#_NxlLQONnEeaaapTjTSZMxw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NyE6geNnEeaaapTjTSZMxw" x="24" y="10" width="100" height="697"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Udd0ceNnEeaaapTjTSZMxw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Udd0c-NnEeaaapTjTSZMxw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="coffeeShop-sequence.uml#_Udd0cONnEeaaapTjTSZMxw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Udd0cuNnEeaaapTjTSZMxw" x="237" y="9" width="100" height="698"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kUsy4ONnEeaaapTjTSZMxw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kUsy4uNnEeaaapTjTSZMxw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="coffeeShop-sequence.uml#_kUfXgONnEeaaapTjTSZMxw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUsy4eNnEeaaapTjTSZMxw" x="459" y="9" width="100" height="698"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_myK64ONnEeaaapTjTSZMxw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_myK64uNnEeaaapTjTSZMxw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="coffeeShop-sequence.uml#_mx3Y4ONnEeaaapTjTSZMxw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_myK64eNnEeaaapTjTSZMxw" x="695" y="9" width="100" height="698"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qYAZIONnEeaaapTjTSZMxw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qYAZIuNnEeaaapTjTSZMxw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="coffeeShop-sequence.uml#_qX2oIONnEeaaapTjTSZMxw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qYAZIeNnEeaaapTjTSZMxw" x="918" y="9" width="100" height="698"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2G0wsONnEeaaapTjTSZMxw" type="Lifeline_Shape">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4VUokONnEeaaapTjTSZMxw" source="CustomExtensionInfo">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4VUokeNnEeaaapTjTSZMxw" key="manual.label.size" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2G0wsuNnEeaaapTjTSZMxw" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="coffeeShop-sequence.uml#_2Gq_sONnEeaaapTjTSZMxw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2G0wseNnEeaaapTjTSZMxw" x="1129" y="9" width="124" height="698"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WepehONmEeaaapTjTSZMxw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="coffeeShop-sequence.uml#_WeBMYONmEeaaapTjTSZMxw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WepeheNmEeaaapTjTSZMxw" width="1318"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_WepehuNmEeaaapTjTSZMxw" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Wepeh-NmEeaaapTjTSZMxw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_WepeiONmEeaaapTjTSZMxw">
+    <owner xmi:type="uml:Model" href="coffeeShop-sequence.uml#_WbrqEONmEeaaapTjTSZMxw"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="coffeeShop-sequence.uml#_WeBMYONmEeaaapTjTSZMxw"/>
+</notation:Diagram>

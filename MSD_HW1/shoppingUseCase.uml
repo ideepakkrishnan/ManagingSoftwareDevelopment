@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_OkljYORVEeaXsYBmAsp6_w" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QoriEORVEeaXsYBmAsp6_w" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Tne1gORVEeaXsYBmAsp6_w" name="Cashier"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cKRV8ORVEeaXsYBmAsp6_w" name="Visit the store"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_h_bygORVEeaXsYBmAsp6_w" name="Pick items from shelves"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mtdn4ORVEeaXsYBmAsp6_w" name="Place items in cart"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qX5SQORVEeaXsYBmAsp6_w" name="Move cart to cashier"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xGl-4ORVEeaXsYBmAsp6_w" name="Bill each item in cart"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8mS8YORVEeaXsYBmAsp6_w" name="Request payment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Nxwi0ORWEeaXsYBmAsp6_w" name="Pay bill amount"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VJuO4ORWEeaXsYBmAsp6_w" name="Process payment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_XW87cORWEeaXsYBmAsp6_w" name="Give receipt"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_p-Z-wORWEeaXsYBmAsp6_w" name="Collect items and leave"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2Dux0ORWEeaXsYBmAsp6_w" memberEnd="_2D8NMuRWEeaXsYBmAsp6_w _2D8NM-RWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2D8NMORWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2D8NMeRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2D8NMuRWEeaXsYBmAsp6_w" name="visit the store" type="_cKRV8ORVEeaXsYBmAsp6_w" association="_2Dux0ORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2D8NM-RWEeaXsYBmAsp6_w" name="customer" type="_QoriEORVEeaXsYBmAsp6_w" association="_2Dux0ORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3qAMEORWEeaXsYBmAsp6_w" memberEnd="_3qAME-RWEeaXsYBmAsp6_w _3qAMFORWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3qAMEeRWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3qAMEuRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3qAME-RWEeaXsYBmAsp6_w" name="pick items from shelves" type="_h_bygORVEeaXsYBmAsp6_w" association="_3qAMEORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3qAMFORWEeaXsYBmAsp6_w" name="customer" type="_QoriEORVEeaXsYBmAsp6_w" association="_3qAMEORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4pjkkORWEeaXsYBmAsp6_w" memberEnd="_4psugORWEeaXsYBmAsp6_w _4psugeRWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4pjkkeRWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4pjkkuRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4psugORWEeaXsYBmAsp6_w" name="place items in cart" type="_mtdn4ORVEeaXsYBmAsp6_w" association="_4pjkkORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4psugeRWEeaXsYBmAsp6_w" name="customer" type="_QoriEORVEeaXsYBmAsp6_w" association="_4pjkkORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5qAU8ORWEeaXsYBmAsp6_w" memberEnd="_5qAU8-RWEeaXsYBmAsp6_w _5qAU9ORWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5qAU8eRWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5qAU8uRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5qAU8-RWEeaXsYBmAsp6_w" name="move cart to cashier" type="_qX5SQORVEeaXsYBmAsp6_w" association="_5qAU8ORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5qAU9ORWEeaXsYBmAsp6_w" name="customer" type="_QoriEORVEeaXsYBmAsp6_w" association="_5qAU8ORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6lBywORWEeaXsYBmAsp6_w" memberEnd="_6lDA4uRWEeaXsYBmAsp6_w _6lDn8ORWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6lDA4ORWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6lDA4eRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6lDA4uRWEeaXsYBmAsp6_w" name="cashier" type="_Tne1gORVEeaXsYBmAsp6_w" association="_6lBywORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6lDn8ORWEeaXsYBmAsp6_w" name="bill each item in cart" type="_xGl-4ORVEeaXsYBmAsp6_w" association="_6lBywORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7_AdcORWEeaXsYBmAsp6_w" memberEnd="_7_Adc-RWEeaXsYBmAsp6_w _7_AddORWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7_AdceRWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7_AdcuRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7_Adc-RWEeaXsYBmAsp6_w" name="cashier" type="_Tne1gORVEeaXsYBmAsp6_w" association="_7_AdcORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7_AddORWEeaXsYBmAsp6_w" name="request payment" type="_8mS8YORVEeaXsYBmAsp6_w" association="_7_AdcORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8yl2gORWEeaXsYBmAsp6_w" memberEnd="_8yvngORWEeaXsYBmAsp6_w _8yvngeRWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8yl2geRWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8yl2guRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8yvngORWEeaXsYBmAsp6_w" name="pay bill amount" type="_Nxwi0ORWEeaXsYBmAsp6_w" association="_8yl2gORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8yvngeRWEeaXsYBmAsp6_w" name="customer" type="_QoriEORVEeaXsYBmAsp6_w" association="_8yl2gORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_90xFMORWEeaXsYBmAsp6_w" memberEnd="_90xFM-RWEeaXsYBmAsp6_w _90xFNORWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90xFMeRWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90xFMuRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_90xFM-RWEeaXsYBmAsp6_w" name="cashier" type="_Tne1gORVEeaXsYBmAsp6_w" association="_90xFMORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_90xFNORWEeaXsYBmAsp6_w" name="process payment" type="_VJuO4ORWEeaXsYBmAsp6_w" association="_90xFMORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__Ovv4ORWEeaXsYBmAsp6_w" memberEnd="__Ovv4-RWEeaXsYBmAsp6_w __Ovv5ORWEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__Ovv4eRWEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Ovv4uRWEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__Ovv4-RWEeaXsYBmAsp6_w" name="cashier" type="_Tne1gORVEeaXsYBmAsp6_w" association="__Ovv4ORWEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__Ovv5ORWEeaXsYBmAsp6_w" name="give receipt" type="_XW87cORWEeaXsYBmAsp6_w" association="__Ovv4ORWEeaXsYBmAsp6_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A2uaUORXEeaXsYBmAsp6_w" memberEnd="_A2w2kuRXEeaXsYBmAsp6_w _A2w2k-RXEeaXsYBmAsp6_w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A2w2kORXEeaXsYBmAsp6_w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A2w2keRXEeaXsYBmAsp6_w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A2w2kuRXEeaXsYBmAsp6_w" name="pick receipt and items" type="_p-Z-wORWEeaXsYBmAsp6_w" association="_A2uaUORXEeaXsYBmAsp6_w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A2w2k-RXEeaXsYBmAsp6_w" name="customer" type="_QoriEORVEeaXsYBmAsp6_w" association="_A2uaUORXEeaXsYBmAsp6_w"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WbrqEONmEeaaapTjTSZMxw" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_WeBMYONmEeaaapTjTSZMxw" name="Interaction1">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_NxlLQONnEeaaapTjTSZMxw" name="customer"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Udd0cONnEeaaapTjTSZMxw" name="Cashier"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kUfXgONnEeaaapTjTSZMxw" name="POS"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_mx3Y4ONnEeaaapTjTSZMxw" name="Barista"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_qX2oIONnEeaaapTjTSZMxw" name="Coffee Machine"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_2Gq_sONnEeaaapTjTSZMxw" name="Food Handler"/>
+  </packagedElement>
+</uml:Model>

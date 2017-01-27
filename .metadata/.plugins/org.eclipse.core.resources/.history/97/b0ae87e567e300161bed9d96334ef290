@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WepegONmEeaaapTjTSZMxw" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_WepegeNmEeaaapTjTSZMxw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WepeguNmEeaaapTjTSZMxw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Wepeg-NmEeaaapTjTSZMxw" type="Interaction_SubfragmentCompartment">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WepehONmEeaaapTjTSZMxw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="coffeeShop-sequence.uml#_WeBMYONmEeaaapTjTSZMxw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WepeheNmEeaaapTjTSZMxw"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_WepehuNmEeaaapTjTSZMxw" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Wepeh-NmEeaaapTjTSZMxw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_WepeiONmEeaaapTjTSZMxw">
+    <owner xmi:type="uml:Model" href="coffeeShop-sequence.uml#_WbrqEONmEeaaapTjTSZMxw"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="coffeeShop-sequence.uml#_WeBMYONmEeaaapTjTSZMxw"/>
+</notation:Diagram>

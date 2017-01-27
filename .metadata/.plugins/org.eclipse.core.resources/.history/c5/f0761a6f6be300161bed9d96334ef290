@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WbrqEONmEeaaapTjTSZMxw" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_WeBMYONmEeaaapTjTSZMxw" name="Interaction1">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_tPH6wONoEeaaapTjTSZMxw">
+      <body>If order contains beverages,&#xD;
+get a cup for each one</body>
+    </ownedComment>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_NxlLQONnEeaaapTjTSZMxw" name="customer" coveredBy="_kB1r0ONoEeaaapTjTSZMxw _U8ckkONpEeaaapTjTSZMxw _U8ckkeNpEeaaapTjTSZMxw _cSWlsONqEeaaapTjTSZMxw _cSgWseNqEeaaapTjTSZMxw _cSgWsONqEeaaapTjTSZMxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Udd0cONnEeaaapTjTSZMxw" name="Cashier" coveredBy="_kBr60eNoEeaaapTjTSZMxw _U8ckkONpEeaaapTjTSZMxw _U8ckkeNpEeaaapTjTSZMxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kUfXgONnEeaaapTjTSZMxw" name="POS" coveredBy="_U8ckkONpEeaaapTjTSZMxw _U8ckkeNpEeaaapTjTSZMxw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_mx3Y4ONnEeaaapTjTSZMxw" name="Barista"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_qX2oIONnEeaaapTjTSZMxw" name="Coffee Machine"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_2Gq_sONnEeaaapTjTSZMxw" name="Food Handler"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_U8ckkONpEeaaapTjTSZMxw" name="CombinedFragment" covered="_kUfXgONnEeaaapTjTSZMxw _NxlLQONnEeaaapTjTSZMxw _Udd0cONnEeaaapTjTSZMxw">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_U8ckkeNpEeaaapTjTSZMxw" name="loop" covered="_kUfXgONnEeaaapTjTSZMxw _NxlLQONnEeaaapTjTSZMxw _Udd0cONnEeaaapTjTSZMxw">
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_cSWlsONqEeaaapTjTSZMxw" name="ActionExecSpecStart" covered="_NxlLQONnEeaaapTjTSZMxw" execution="_cSgWsONqEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_cSgWsONqEeaaapTjTSZMxw" name="ActionExecSpec" covered="_NxlLQONnEeaaapTjTSZMxw" finish="_cSgWseNqEeaaapTjTSZMxw" start="_cSWlsONqEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_cSgWseNqEeaaapTjTSZMxw" name="ActionExecSpecFinish" covered="_NxlLQONnEeaaapTjTSZMxw" execution="_cSgWsONqEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ABXuQONoEeaaapTjTSZMxw" name="MessageSend" message="_AAx4YONoEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ABXuQeNoEeaaapTjTSZMxw" name="MessageRecv" message="_AAx4YONoEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EyCn8ONoEeaaapTjTSZMxw" name="MessageSend0" message="_Ex428ONoEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EyCn8eNoEeaaapTjTSZMxw" name="MessageRecv0" message="_Ex428ONoEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JU-noeNoEeaaapTjTSZMxw" name="MessageSend1" message="_JU-noONoEeaaapTjTSZMxw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JU-nouNoEeaaapTjTSZMxw" name="MessageRecv1" message="_JU-noONoEeaaapTjTSZMxw"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="__LSTcONqEeaaapTjTSZMxw" name="until customer stops talking or says &quot;That's it&quot;"/>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kBr60eNoEeaaapTjTSZMxw" name="MessageSend2" covered="_Udd0cONnEeaaapTjTSZMxw" message="_kBr60ONoEeaaapTjTSZMxw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kB1r0ONoEeaaapTjTSZMxw" name="MessageRecv2" covered="_NxlLQONnEeaaapTjTSZMxw" message="_kBr60ONoEeaaapTjTSZMxw"/>
+    <message xmi:type="uml:Message" xmi:id="_AAx4YONoEeaaapTjTSZMxw" name="Request for order" receiveEvent="_ABXuQeNoEeaaapTjTSZMxw" sendEvent="_ABXuQONoEeaaapTjTSZMxw"/>
+    <message xmi:type="uml:Message" xmi:id="_Ex428ONoEeaaapTjTSZMxw" name="Place order" receiveEvent="_EyCn8eNoEeaaapTjTSZMxw" sendEvent="_EyCn8ONoEeaaapTjTSZMxw"/>
+    <message xmi:type="uml:Message" xmi:id="_JU-noONoEeaaapTjTSZMxw" name="Enter order details" receiveEvent="_JU-nouNoEeaaapTjTSZMxw" sendEvent="_JU-noeNoEeaaapTjTSZMxw"/>
+    <message xmi:type="uml:Message" xmi:id="_kBr60ONoEeaaapTjTSZMxw" name="Confirm order" receiveEvent="_kB1r0ONoEeaaapTjTSZMxw" sendEvent="_kBr60eNoEeaaapTjTSZMxw"/>
+  </packagedElement>
+</uml:Model>
